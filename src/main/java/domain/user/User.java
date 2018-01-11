@@ -4,6 +4,7 @@ import domain.embed.CommonDate;
 
 import javax.persistence.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 @Entity
@@ -17,9 +18,23 @@ public class User {
 
     private String userNickName;
 
+    private String password;
+
+    @Transient
+    private String confirmPassword;
+
     private int level;
 
     private int tendency;
+
+    @ManyToMany
+    @JoinTable(
+            name = "users_roles",
+            joinColumns = @JoinColumn(
+                    name = "user_id", referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(
+                    name = "role_id", referencedColumnName = "id"))
+    private Collection<Role> roles;
 
     @OneToOne
     @JoinColumn(name = "userIdx")
