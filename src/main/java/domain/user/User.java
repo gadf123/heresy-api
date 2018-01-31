@@ -23,7 +23,9 @@ public class User {
     @Transient
     private String confirmPassword;
 
-    private int level;
+    @OneToOne
+    @JoinColumn(name = "userIdx")
+    private UserExperience userExperience;
 
     private int tendency;
 
@@ -44,6 +46,10 @@ public class User {
     @OneToMany
     @JoinColumn(name = "userIdx")
     private List<UserTitle> myTitles = new ArrayList<>();
+
+    @OneToOne
+    @JoinColumn(name = "userIdx")
+    private UserJob userJob;
 
     // 자기소개
     private String introduction;

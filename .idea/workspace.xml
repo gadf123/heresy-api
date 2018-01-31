@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/user.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +25,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="148">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,21 +34,303 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonDate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java">
+      <file leaf-file-name="UserExperience.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql">
+      <file leaf-file-name="JAVA/domain" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/domain">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>domain</OriginalElement>
+              <nodes>
+                <node x="1138.5" y="189.0">domain.embed.CommonDate</node>
+                <node x="1464.4749999999997" y="1030.0">domain.board.BasicBoardArticle</node>
+                <node x="685.2266666666665" y="22.0">domain.etc.Titles</node>
+                <node x="866.5183333333331" y="765.0">domain.embed.Tendency</node>
+                <node x="1689.1133333333328" y="189.0">domain.embed.Recommend</node>
+                <node x="281.55833333333305" y="334.0">domain.user.User</node>
+                <node x="667.875" y="466.0">domain.comment.CommentId</node>
+                <node x="1033.433333333333" y="1019.0">domain.board.DebateBoradArticle</node>
+                <node x="157.5" y="167.0">domain.user.UserExperience</node>
+                <node x="1165.0" y="411.0">domain.Comment</node>
+                <node x="1549.9299999999998" y="721.0">domain.BulletinBoardArticle</node>
+                <node x="285.05833333333305" y="776.0">domain.user.Role</node>
+                <node x="1101.803333333333" y="809.0">domain.board.DebateBoardComment</node>
+                <node x="1352.9299999999998" y="820.0">domain.board.BasicBoardComment</node>
+                <node x="331.5" y="189.0">domain.user.UserHomeTown</node>
+                <node x="330.5" y="22.0">domain.etc.HomeTown</node>
+                <node x="0.0" y="0.0">domain.etc.Job</node>
+                <node x="311.55833333333305" y="1008.0">domain.user.Privilege</node>
+                <node x="1600.8633333333328" y="444.0">domain.board.UploadFiles</node>
+                <node x="-14.86722493241544" y="355.78930002986453">domain.etc.Level</node>
+                <node x="563.183333333333" y="809.0">domain.board.AgendaBoardComment</node>
+                <node x="668.7266666666665" y="167.0">domain.user.UserTitle</node>
+                <node x="612.4333333333329" y="1019.0">domain.board.AgendaBoardArticle</node>
+                <node x="4.5" y="167.0">domain.user.UserJob</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
+                  <point x="47.75" y="-25.5" />
+                  <point x="706.433333333333" y="701.0" />
+                  <point x="1204.3333333333333" y="701.0" />
+                  <point x="-78.66666666666663" y="91.5" />
+                </edge>
+                <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
+                  <point x="-97.25" y="-25.5" />
+                  <point x="1561.7249999999997" y="968.0" />
+                  <point x="1441.4299999999998" y="968.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="domain.user.Privilege" target="domain.user.Role">
+                  <point x="-51.25" y="-47.5" />
+                  <point x="362.80833333333305" y="988.0" />
+                  <point x="349.55833333333305" y="988.0" />
+                  <point x="-64.5" y="58.5" />
+                </edge>
+                <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
+                  <point x="2.8421709430404007E-14" y="-36.5" />
+                  <point x="812.933333333333" y="988.0" />
+                  <point x="905.2683333333331" y="988.0" />
+                  <point x="-38.75" y="69.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.user.UserTitle">
+                  <point x="53.0" y="-168.5" />
+                  <point x="467.05833333333305" y="304.0" />
+                  <point x="751.2266666666665" y="304.0" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.user.UserJob">
+                  <point x="-106.0" y="-168.5" />
+                  <point x="308.05833333333305" y="314.0" />
+                  <point x="71.0" y="314.0" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
+                  <point x="133.66666666666663" y="-36.5" />
+                  <point x="946.5999999999997" y="978.0" />
+                  <point x="1594.263333333333" y="978.0" />
+                  <point x="-88.66666666666674" y="113.5" />
+                </edge>
+                <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
+                  <point x="0.0" y="-36.5" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
+                  <point x="-131.33333333333337" y="-36.5" />
+                  <point x="1099.0999999999997" y="968.0" />
+                  <point x="982.7683333333331" y="968.0" />
+                  <point x="38.75" y="69.5" />
+                </edge>
+                <edge source="domain.user.UserJob" target="domain.etc.Job">
+                  <point x="0.0" y="-58.5" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.embed.CommonDate">
+                  <point x="106.0" y="-168.5" />
+                  <point x="520.058333333333" y="314.0" />
+                  <point x="1167.0" y="314.0" />
+                  <point x="-57.0" y="36.5" />
+                </edge>
+                <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
+                  <point x="-47.75" y="-25.5" />
+                  <point x="610.933333333333" y="691.0" />
+                  <point x="710.625" y="691.0" />
+                  <point x="-42.75" y="36.5" />
+                </edge>
+                <edge source="domain.board.DebateBoardComment" target="domain.Comment">
+                  <point x="46.75" y="-25.5" />
+                  <point x="1242.053333333333" y="701.0" />
+                  <point x="1283.0" y="701.0" />
+                  <point x="0.0" y="91.5" />
+                </edge>
+                <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
+                  <point x="131.33333333333337" y="-36.5" />
+                  <point x="1361.7666666666664" y="988.0" />
+                  <point x="1682.9299999999998" y="988.0" />
+                  <point x="0.0" y="113.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.user.UserHomeTown">
+                  <point x="0.0" y="-168.5" />
+                  <point x="414.05833333333305" y="314.0" />
+                  <point x="436.5" y="314.0" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="domain.board.BasicBoardComment" target="domain.Comment">
+                  <point x="0.0" y="-14.5" />
+                  <point x="1441.4299999999998" y="701.0" />
+                  <point x="1361.6666666666665" y="701.0" />
+                  <point x="78.66666666666663" y="91.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.user.Role">
+                  <point x="66.25" y="168.5" />
+                  <point x="480.30833333333305" y="701.0" />
+                  <point x="478.55833333333305" y="701.0" />
+                  <point x="64.5" y="-58.5" />
+                </edge>
+                <edge source="domain.user.UserTitle" target="domain.etc.Titles">
+                  <point x="0.0" y="-58.5" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="domain.user.User" target="domain.user.UserExperience">
+                  <point x="-53.0" y="-168.5" />
+                  <point x="361.05833333333305" y="304.0" />
+                  <point x="234.5" y="304.0" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
+                  <point x="88.66666666666674" y="-113.5" />
+                  <point x="1771.5966666666666" y="701.0" />
+                  <point x="1781.3633333333328" y="701.0" />
+                  <point x="30.75" y="36.5" />
+                </edge>
+                <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
+                  <point x="-88.66666666666674" y="-113.5" />
+                  <point x="1594.263333333333" y="701.0" />
+                  <point x="1545.2199999999998" y="701.0" />
+                  <point x="1545.2199999999998" y="304.0" />
+                  <point x="1281.0" y="304.0" />
+                  <point x="57.0" y="36.5" />
+                </edge>
+                <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
+                  <point x="97.25" y="-25.5" />
+                  <point x="1756.2249999999997" y="988.0" />
+                  <point x="1771.5966666666666" y="988.0" />
+                  <point x="88.66666666666674" y="113.5" />
+                </edge>
+                <edge source="domain.Comment" target="domain.embed.CommonDate">
+                  <point x="-59.0" y="-91.5" />
+                  <point x="0.0" y="36.5" />
+                </edge>
+                <edge source="domain.user.Role" target="domain.user.User">
+                  <point x="-64.5" y="-58.5" />
+                  <point x="349.55833333333305" y="701.0" />
+                  <point x="347.80833333333305" y="701.0" />
+                  <point x="-66.25" y="168.5" />
+                </edge>
+                <edge source="domain.user.Role" target="domain.user.Privilege">
+                  <point x="64.5" y="58.5" />
+                  <point x="478.55833333333305" y="988.0" />
+                  <point x="465.30833333333305" y="988.0" />
+                  <point x="51.25" y="-47.5" />
+                </edge>
+                <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
+                  <point x="-46.75" y="-25.5" />
+                  <point x="1148.553333333333" y="691.0" />
+                  <point x="796.125" y="691.0" />
+                  <point x="42.75" y="36.5" />
+                </edge>
+                <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
+                  <point x="0.0" y="-113.5" />
+                  <point x="1682.9299999999998" y="701.0" />
+                  <point x="1685.8633333333328" y="701.0" />
+                  <point x="0.0" y="58.5" />
+                </edge>
+                <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
+                  <point x="-133.66666666666663" y="-36.5" />
+                  <point x="679.2666666666664" y="988.0" />
+                  <point x="658.683333333333" y="988.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+                <edge source="domain.Comment" target="domain.embed.Recommend">
+                  <point x="59.0" y="-91.5" />
+                  <point x="1342.0" y="314.0" />
+                  <point x="1719.8633333333328" y="314.0" />
+                  <point x="-30.75" y="36.5" />
+                </edge>
+                <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
+                  <point x="0.0" y="-36.5" />
+                  <point x="1230.433333333333" y="968.0" />
+                  <point x="1195.303333333333" y="968.0" />
+                  <point x="0.0" y="25.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.4708343373979438" x="953.0507557226811" y="599.9895787925925" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTitle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgendaBoardArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AgendaBoardComment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserHomeTown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -88,8 +374,13 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Privilege.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
         <option value="$PROJECT_DIR$/src/main/resources/user.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
       </list>
     </option>
   </component>
@@ -99,7 +390,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="841" />
@@ -120,8 +411,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,24 +455,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="board" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="comment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="embed" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -240,7 +514,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -270,12 +543,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
-      <module name="heresy-api" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -317,18 +584,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
+      <module name="heresy-api" />
+      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -357,6 +624,12 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -373,67 +646,54 @@
       <updated>1515514775576</updated>
       <workItem from="1515514778455" duration="816000" />
       <workItem from="1515680439498" duration="834000" />
+      <workItem from="1516801214885" duration="190000" />
+      <workItem from="1516801421842" duration="1944000" />
+      <workItem from="1517154334577" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2938000" />
+    <option name="totallyTimeSpent" value="5530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358167" sideWeight="0.49369368" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25358167" sideWeight="0.5063063" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,11 +707,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,7 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -499,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -507,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -515,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -579,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,205 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Titles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/domain">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>domain</OriginalElement>
-          <nodes>
-            <node x="524.9583333333335" y="145.0">domain.embed.CommonDate</node>
-            <node x="0.0" y="887.0">domain.board.BasicBoardArticle</node>
-            <node x="843.0020833333335" y="633.0">domain.embed.Tendency</node>
-            <node x="1448.7729166666668" y="0.0">domain.etc.Titles</node>
-            <node x="167.56458333333342" y="145.0">domain.embed.Recommend</node>
-            <node x="1221.0020833333338" y="290.0">domain.user.User</node>
-            <node x="830.0000000000001" y="876.0">domain.board.DebateBoradArticle</node>
-            <node x="1030.0020833333338" y="378.0">domain.comment.CommentId</node>
-            <node x="463.00208333333353" y="323.0">domain.Comment</node>
-            <node x="23.064583333333417" y="589.0">domain.BulletinBoardArticle</node>
-            <node x="309.0645833333334" y="688.0">domain.board.BasicBoardComment</node>
-            <node x="1075.2916666666667" y="677.0">domain.board.DebateBoardComment</node>
-            <node x="1202.2729166666668" y="145.0">domain.user.UserHomeTown</node>
-            <node x="1201.2729166666668" y="0.0">domain.etc.HomeTown</node>
-            <node x="17.81458333333353" y="356.0">domain.board.UploadFiles</node>
-            <node x="552.6479166666668" y="677.0">domain.board.AgendaBoardComment</node>
-            <node x="1432.2729166666668" y="123.0">domain.user.UserTitle</node>
-            <node x="409.0000000000001" y="876.0">domain.board.AgendaBoardArticle</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
-              <point x="-47.75" y="-25.5" />
-              <point x="600.3979166666668" y="569.0" />
-              <point x="581.0020833333335" y="569.0" />
-              <point x="0.0" y="91.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardComment" target="domain.Comment">
-              <point x="0.0" y="-14.5" />
-              <point x="397.5645833333334" y="569.0" />
-              <point x="502.33541666666684" y="569.0" />
-              <point x="-78.66666666666669" y="91.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
-              <point x="97.25" y="-25.5" />
-              <point x="291.75" y="856.0" />
-              <point x="397.5645833333334" y="856.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="domain.user.UserTitle" target="domain.etc.Titles">
-              <point x="0.0" y="-58.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
-              <point x="133.66666666666674" y="-36.5" />
-              <point x="743.1666666666669" y="856.0" />
-              <point x="881.7520833333335" y="856.0" />
-              <point x="-38.75" y="69.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
-              <point x="0.0" y="-113.5" />
-              <point x="156.06458333333342" y="569.0" />
-              <point x="198.31458333333342" y="569.0" />
-              <point x="-30.75" y="36.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
-              <point x="88.66666666666669" y="-113.5" />
-              <point x="244.7312500000001" y="569.0" />
-              <point x="332.6687500000003" y="569.0" />
-              <point x="332.6687500000003" y="270.0" />
-              <point x="553.4583333333335" y="270.0" />
-              <point x="-57.0" y="36.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserTitle">
-              <point x="88.33333333333326" y="-124.5" />
-              <point x="1441.8354166666668" y="270.0" />
-              <point x="1514.7729166666668" y="270.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
-              <point x="-97.25" y="-25.5" />
-              <point x="97.25" y="856.0" />
-              <point x="67.39791666666679" y="856.0" />
-              <point x="-88.66666666666667" y="113.5" />
-            </edge>
-            <edge source="domain.Comment" target="domain.embed.CommonDate">
-              <point x="59.0" y="-91.5" />
-              <point x="640.0020833333335" y="270.0" />
-              <point x="610.4583333333335" y="270.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
-              <point x="-133.66666666666663" y="-36.5" />
-              <point x="475.8333333333335" y="846.0" />
-              <point x="156.06458333333342" y="846.0" />
-              <point x="0.0" y="113.5" />
-            </edge>
-            <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
-              <point x="0.0" y="-36.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
-              <point x="0.0" y="-36.5" />
-              <point x="1027.0" y="856.0" />
-              <point x="959.2520833333335" y="856.0" />
-              <point x="38.75" y="69.5" />
-            </edge>
-            <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
-              <point x="46.75" y="-25.5" />
-              <point x="1215.5416666666667" y="569.0" />
-              <point x="1158.2520833333338" y="569.0" />
-              <point x="42.75" y="36.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
-              <point x="-88.66666666666669" y="-113.5" />
-              <point x="67.39791666666679" y="569.0" />
-              <point x="102.81458333333353" y="569.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.embed.CommonDate">
-              <point x="-88.33333333333326" y="-124.5" />
-              <point x="1265.1687500000003" y="270.0" />
-              <point x="667.4583333333335" y="270.0" />
-              <point x="57.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
-              <point x="0.0" y="-36.5" />
-              <point x="609.5000000000001" y="856.0" />
-              <point x="648.1479166666668" y="856.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="domain.Comment" target="domain.embed.Recommend">
-              <point x="-59.0" y="-91.5" />
-              <point x="522.0020833333335" y="260.0" />
-              <point x="259.8145833333334" y="260.0" />
-              <point x="30.75" y="36.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
-              <point x="47.75" y="-25.5" />
-              <point x="695.8979166666668" y="569.0" />
-              <point x="1072.7520833333338" y="569.0" />
-              <point x="-42.75" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoardComment" target="domain.Comment">
-              <point x="-46.75" y="-25.5" />
-              <point x="1122.0416666666667" y="559.0" />
-              <point x="659.6687500000003" y="559.0" />
-              <point x="78.66666666666674" y="91.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
-              <point x="-131.33333333333337" y="-36.5" />
-              <point x="895.6666666666667" y="836.0" />
-              <point x="244.7312500000001" y="836.0" />
-              <point x="88.66666666666669" y="113.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserHomeTown">
-              <point x="0.0" y="-124.5" />
-              <point x="1353.5020833333338" y="270.0" />
-              <point x="1307.2729166666668" y="270.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
-              <point x="131.33333333333337" y="-36.5" />
-              <point x="1158.3333333333335" y="856.0" />
-              <point x="1168.7916666666667" y="856.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4427565404070138" x="208.0" y="404.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -850,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -868,9 +931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,17 +939,7 @@
         <state relative-caret-position="390">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -898,7 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,33 +976,323 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="148">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/domain">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>domain</OriginalElement>
+          <nodes>
+            <node x="1138.5" y="189.0">domain.embed.CommonDate</node>
+            <node x="1464.4749999999997" y="1030.0">domain.board.BasicBoardArticle</node>
+            <node x="685.2266666666665" y="22.0">domain.etc.Titles</node>
+            <node x="866.5183333333331" y="765.0">domain.embed.Tendency</node>
+            <node x="1689.1133333333328" y="189.0">domain.embed.Recommend</node>
+            <node x="281.55833333333305" y="334.0">domain.user.User</node>
+            <node x="667.875" y="466.0">domain.comment.CommentId</node>
+            <node x="1033.433333333333" y="1019.0">domain.board.DebateBoradArticle</node>
+            <node x="157.5" y="167.0">domain.user.UserExperience</node>
+            <node x="1165.0" y="411.0">domain.Comment</node>
+            <node x="1549.9299999999998" y="721.0">domain.BulletinBoardArticle</node>
+            <node x="285.05833333333305" y="776.0">domain.user.Role</node>
+            <node x="1101.803333333333" y="809.0">domain.board.DebateBoardComment</node>
+            <node x="1352.9299999999998" y="820.0">domain.board.BasicBoardComment</node>
+            <node x="331.5" y="189.0">domain.user.UserHomeTown</node>
+            <node x="330.5" y="22.0">domain.etc.HomeTown</node>
+            <node x="0.0" y="0.0">domain.etc.Job</node>
+            <node x="311.55833333333305" y="1008.0">domain.user.Privilege</node>
+            <node x="1600.8633333333328" y="444.0">domain.board.UploadFiles</node>
+            <node x="-14.86722493241544" y="355.78930002986453">domain.etc.Level</node>
+            <node x="563.183333333333" y="809.0">domain.board.AgendaBoardComment</node>
+            <node x="668.7266666666665" y="167.0">domain.user.UserTitle</node>
+            <node x="612.4333333333329" y="1019.0">domain.board.AgendaBoardArticle</node>
+            <node x="4.5" y="167.0">domain.user.UserJob</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
+              <point x="47.75" y="-25.5" />
+              <point x="706.433333333333" y="701.0" />
+              <point x="1204.3333333333333" y="701.0" />
+              <point x="-78.66666666666663" y="91.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
+              <point x="-97.25" y="-25.5" />
+              <point x="1561.7249999999997" y="968.0" />
+              <point x="1441.4299999999998" y="968.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="domain.user.Privilege" target="domain.user.Role">
+              <point x="-51.25" y="-47.5" />
+              <point x="362.80833333333305" y="988.0" />
+              <point x="349.55833333333305" y="988.0" />
+              <point x="-64.5" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
+              <point x="2.8421709430404007E-14" y="-36.5" />
+              <point x="812.933333333333" y="988.0" />
+              <point x="905.2683333333331" y="988.0" />
+              <point x="-38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserTitle">
+              <point x="53.0" y="-168.5" />
+              <point x="467.05833333333305" y="304.0" />
+              <point x="751.2266666666665" y="304.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserJob">
+              <point x="-106.0" y="-168.5" />
+              <point x="308.05833333333305" y="314.0" />
+              <point x="71.0" y="314.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="133.66666666666663" y="-36.5" />
+              <point x="946.5999999999997" y="978.0" />
+              <point x="1594.263333333333" y="978.0" />
+              <point x="-88.66666666666674" y="113.5" />
+            </edge>
+            <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
+              <point x="-131.33333333333337" y="-36.5" />
+              <point x="1099.0999999999997" y="968.0" />
+              <point x="982.7683333333331" y="968.0" />
+              <point x="38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.UserJob" target="domain.etc.Job">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.embed.CommonDate">
+              <point x="106.0" y="-168.5" />
+              <point x="520.058333333333" y="314.0" />
+              <point x="1167.0" y="314.0" />
+              <point x="-57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
+              <point x="-47.75" y="-25.5" />
+              <point x="610.933333333333" y="691.0" />
+              <point x="710.625" y="691.0" />
+              <point x="-42.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.Comment">
+              <point x="46.75" y="-25.5" />
+              <point x="1242.053333333333" y="701.0" />
+              <point x="1283.0" y="701.0" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
+              <point x="131.33333333333337" y="-36.5" />
+              <point x="1361.7666666666664" y="988.0" />
+              <point x="1682.9299999999998" y="988.0" />
+              <point x="0.0" y="113.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserHomeTown">
+              <point x="0.0" y="-168.5" />
+              <point x="414.05833333333305" y="314.0" />
+              <point x="436.5" y="314.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardComment" target="domain.Comment">
+              <point x="0.0" y="-14.5" />
+              <point x="1441.4299999999998" y="701.0" />
+              <point x="1361.6666666666665" y="701.0" />
+              <point x="78.66666666666663" y="91.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.Role">
+              <point x="66.25" y="168.5" />
+              <point x="480.30833333333305" y="701.0" />
+              <point x="478.55833333333305" y="701.0" />
+              <point x="64.5" y="-58.5" />
+            </edge>
+            <edge source="domain.user.UserTitle" target="domain.etc.Titles">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserExperience">
+              <point x="-53.0" y="-168.5" />
+              <point x="361.05833333333305" y="304.0" />
+              <point x="234.5" y="304.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
+              <point x="88.66666666666674" y="-113.5" />
+              <point x="1771.5966666666666" y="701.0" />
+              <point x="1781.3633333333328" y="701.0" />
+              <point x="30.75" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
+              <point x="-88.66666666666674" y="-113.5" />
+              <point x="1594.263333333333" y="701.0" />
+              <point x="1545.2199999999998" y="701.0" />
+              <point x="1545.2199999999998" y="304.0" />
+              <point x="1281.0" y="304.0" />
+              <point x="57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="97.25" y="-25.5" />
+              <point x="1756.2249999999997" y="988.0" />
+              <point x="1771.5966666666666" y="988.0" />
+              <point x="88.66666666666674" y="113.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.CommonDate">
+              <point x="-59.0" y="-91.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.User">
+              <point x="-64.5" y="-58.5" />
+              <point x="349.55833333333305" y="701.0" />
+              <point x="347.80833333333305" y="701.0" />
+              <point x="-66.25" y="168.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.Privilege">
+              <point x="64.5" y="58.5" />
+              <point x="478.55833333333305" y="988.0" />
+              <point x="465.30833333333305" y="988.0" />
+              <point x="51.25" y="-47.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
+              <point x="-46.75" y="-25.5" />
+              <point x="1148.553333333333" y="691.0" />
+              <point x="796.125" y="691.0" />
+              <point x="42.75" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
+              <point x="0.0" y="-113.5" />
+              <point x="1682.9299999999998" y="701.0" />
+              <point x="1685.8633333333328" y="701.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
+              <point x="-133.66666666666663" y="-36.5" />
+              <point x="679.2666666666664" y="988.0" />
+              <point x="658.683333333333" y="988.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.Recommend">
+              <point x="59.0" y="-91.5" />
+              <point x="1342.0" y="314.0" />
+              <point x="1719.8633333333328" y="314.0" />
+              <point x="-30.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
+              <point x="0.0" y="-36.5" />
+              <point x="1230.433333333333" y="968.0" />
+              <point x="1195.303333333333" y="968.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4708343373979438" x="953.0507557226811" y="599.9895787925925" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
