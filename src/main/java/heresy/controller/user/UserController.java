@@ -29,6 +29,7 @@ public class UserController {
         return userList;
     }
 
+    @CrossOrigin(origins = "*")
     @RequestMapping(value = "/createUser", method = RequestMethod.POST)
     public List<User> createUser(@RequestParam Map<String, String> parameters) {
         System.out.println(parameters);
