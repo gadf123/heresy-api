@@ -1,14 +1,44 @@
 package heresy.domain.user;
 
-
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
 
 @Entity
 public class User {
 
-    public User() {}
+    public User() {
+    }
+
+    public User(Long userIdx, String userNickName) {
+        this.userIdx = userIdx;
+        this.userNickName = userNickName;
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long userIdx;
+
+    private String userId;
+
+    private String userNickName;
+
+    private String password;
+
+    @Transient
+    private String confirmPassword;
+
+    private int tendency;
+
+    // 자기소개
+    private String introduction;
+
+    // sns 계정
+    private int authSnsIdx;
+
 
     public Long getUserIdx() {
         return userIdx;
@@ -50,14 +80,6 @@ public class User {
         this.confirmPassword = confirmPassword;
     }
 
-    public int getLevel() {
-        return level;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
-    }
-
     public int getTendency() {
         return tendency;
     }
@@ -65,6 +87,7 @@ public class User {
     public void setTendency(int tendency) {
         this.tendency = tendency;
     }
+
 
     public String getIntroduction() {
         return introduction;
@@ -82,32 +105,6 @@ public class User {
         this.authSnsIdx = authSnsIdx;
     }
 
-    public User(Long UserId, String userNickName) {
-        this.userId = userId;
-        this.userNickName = userNickName;
-    }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long userIdx;
-
-    private String userId;
-
-    private String userNickName;
-
-    private String password;
-
-    @Transient
-    private String confirmPassword;
-
-    private int level;
-
-    private int tendency;
-
-    // 자기소개
-    private String introduction;
-
-    // sns 계정
     @Override
     public String toString() {
         return "User{" +
@@ -116,13 +113,9 @@ public class User {
                 ", userNickName='" + userNickName + '\'' +
                 ", password='" + password + '\'' +
                 ", confirmPassword='" + confirmPassword + '\'' +
-                ", level=" + level +
                 ", tendency=" + tendency +
                 ", introduction='" + introduction + '\'' +
                 ", authSnsIdx=" + authSnsIdx +
                 '}';
     }
-
-    private int authSnsIdx;
-
 }
