@@ -1,10 +1,14 @@
-package hello;
+package heresy.controller.greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @user updown
+ * @date 2018. 1. 17.
+ **/
 @RestController
 public class GreetingController {
 

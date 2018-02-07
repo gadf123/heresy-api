@@ -1,5 +1,9 @@
-package hello;
+package heresy.controller.greeting;
 
+/**
+ * @user updown
+ * @date 2018. 1. 17.
+ **/
 public class Greeting {
 
     private final long id;
