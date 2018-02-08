@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 /**
  * @user updown
@@ -17,6 +18,8 @@ import java.util.Map;
 @RestController
 public class UserController {
 
+    private static final Logger logger = Logger.getLogger(UserController.class.getName());
+
     @Autowired
     private UserService userService;
 
@@ -25,43 +28,46 @@ public class UserController {
 
     @RequestMapping("/selectUsers")
     public List<User> user() {
+        logger.info("■■■■■■■■■■UserController.selectUsers Start■■■■■■■■■■");
         List<User> userList = userRepository.findAll();
+        logger.info("■■■■■■■■■■UserController.selectUsers End■■■■■■■■■■■■");
         return userList;
     }
 
-    @CrossOrigin(origins = "*")
     @RequestMapping(value = "/createUser", method = RequestMethod.POST)
-    public List<User> createUser(@RequestParam Map<String, String> parameters) {
-        System.out.println(parameters);
-        User user = new User();
-        user.setUserId(parameters.get("userId"));
-        user.setUserNickName(parameters.get("userNickName"));
+    public List<User> createUser(@RequestBody User user) {
+        logger.info("■■■■■■■■■■UserController.createUser Start■■■■■■■■■■");
+        System.out.println(user);
         userRepository.save(user);
-
         List<User> userList = userRepository.findAll();
+        logger.info("■■■■■■■■■■UserController.createUser End■■■■■■■■■■■■");
         return userList;
     }
 
     @RequestMapping(value = "/updateUser", method = RequestMethod.POST)
-    public List<User> updateUser(@RequestParam Map<String, String> parameters) {
-        System.out.println(parameters);
-        Long userIdx = Long.parseLong(parameters.get("userIdx"));
+    public List<User> updateUser(@RequestBody User user) {
+        logger.info("■■■■■■■■■■UserController.updateUser Start■■■■■■■■■■");
+        System.out.println(user);
+        Long userIdx = user.getUserIdx();
         User findOneUser = userRepository.findOne(userIdx);
-        findOneUser.setUserId(parameters.get("userId"));
-        findOneUser.setUserNickName(parameters.get("userNickName"));
+        findOneUser.setUserId(user.getUserId());
+        findOneUser.setUserNickName(user.getUserNickName());
         userRepository.save(findOneUser);
 
         List<User> userList = userRepository.findAll();
+        logger.info("■■■■■■■■■■UserController.updateUser End■■■■■■■■■■■■");
         return userList;
     }
 
     @RequestMapping(value = "/deleteUser", method = RequestMethod.POST)
-    public List<User> deleteUser(@RequestParam Map<String, String> parameters) {
-        Long userIdx = Long.parseLong(parameters.get("userIdx"));
-        System.out.println(userIdx);
+    public List<User> deleteUser(@RequestBody User user) {
+        logger.info("■■■■■■■■■■UserController.deleteUser Start■■■■■■■■■■");
+        System.out.println(user);
+        Long userIdx = user.getUserIdx();
         userRepository.delete(userIdx);
 
         List<User> userList = userRepository.findAll();
+        logger.info("■■■■■■■■■■UserController.deleteUser End■■■■■■■■■■■■");
         return userList;
     }
 }
