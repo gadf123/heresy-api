@@ -26,7 +26,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @RequestMapping("/selectUsers")
+    @RequestMapping(value = "/selectUsers", method = RequestMethod.GET)
     public List<User> user() {
         logger.info("■■■■■■■■■■UserController.selectUsers Start■■■■■■■■■■");
         List<User> userList = userRepository.findAll();

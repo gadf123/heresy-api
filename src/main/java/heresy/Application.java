@@ -1,6 +1,8 @@
 package heresy;
 
+import heresy.domain.BulletinBoardArticle.BulletinBoardArticle;
 import heresy.domain.user.User;
+import heresy.repository.BulletinBoardArticleRepository;
 import heresy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -15,6 +17,9 @@ public class Application implements CommandLineRunner {
     @Autowired
     UserRepository userRepository;
 
+    @Autowired
+    BulletinBoardArticleRepository bulletinBoardArticleRepository;
+
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
@@ -27,11 +32,27 @@ public class Application implements CommandLineRunner {
         userRepository.save(new User(Long.valueOf(1), "userNickName1"));
         userRepository.save(new User(Long.valueOf(2), "userNickName2"));
         userRepository.save(new User(Long.valueOf(3), "userNickName3"));
+        userRepository.save(new User(Long.valueOf(4), "userNickName4"));
+        userRepository.save(new User(Long.valueOf(5), "userNickName5"));
 
         Iterable<User> list1 = userRepository.findAll();
 
-        System.out.println("findAll() Method.");
+        System.out.println("userRepository.findAll() Method.");
         for( User m : list1){
+            System.out.println(m.toString());
+        }
+
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(0),"subject0"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(1),"subject1"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(2),"subject2"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(3),"subject3"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(4),"subject4"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(5),"subject5"));
+
+        Iterable<BulletinBoardArticle> list2 = bulletinBoardArticleRepository.findAll();
+
+        System.out.println("bulletinBoardArticleRepository.findAll() Method.");
+        for( BulletinBoardArticle m : list2){
             System.out.println(m.toString());
         }
 //
