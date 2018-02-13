@@ -15,9 +15,11 @@ public class BulletinBoardArticle {
     public BulletinBoardArticle() {
     }
 
-    public BulletinBoardArticle(Long idx, String subject) {
+    public BulletinBoardArticle(Long idx, String subject,String userNickName,String type) {
         this.idx = idx;
         this.subject = subject;
+        this.userNickName = userNickName;
+        this.type = type;
     }
 
     @Id
@@ -33,6 +35,9 @@ public class BulletinBoardArticle {
     private String userNickName;
 
     private String content;
+
+    private String type;
+
 
 //    private List<UploadFiles> uploadImages = new ArrayList<>();
 //
@@ -89,7 +94,15 @@ public class BulletinBoardArticle {
     public void setContent(String content) {
         this.content = content;
     }
-//
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+    //
 //    public List<UploadFiles> getUploadImages() {
 //        return uploadImages;
 //    }
@@ -123,6 +136,7 @@ public class BulletinBoardArticle {
                 ", userIdx=" + userIdx +
                 ", userNickName='" + userNickName + '\'' +
                 ", content='" + content + '\'' +
+                ", type='" + type + '\'' +
 //                ", uploadImages=" + uploadImages +
 //                ", recommend=" + recommend +
 //                ", articleDate=" + articleDate +

@@ -42,12 +42,17 @@ public class Application implements CommandLineRunner {
             System.out.println(m.toString());
         }
 
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(0),"subject0"));
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(1),"subject1"));
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(2),"subject2"));
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(3),"subject3"));
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(4),"subject4"));
-        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(5),"subject5"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(0),"subject0","userNickName0","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(1),"subject1","userNickName1","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(2),"subject2","userNickName2","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(3),"subject3","userNickName3","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(4),"subject4","userNickName4","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(5),"subject5","userNickName5","P"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(6),"subject6","userNickName6","N"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(7),"subject7","userNickName7","N"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(8),"subject8","userNickName8","N"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(9),"subject9","userNickName9","N"));
+        bulletinBoardArticleRepository.save(new BulletinBoardArticle(Long.valueOf(10),"subject10","userNickName10","N"));
 
         Iterable<BulletinBoardArticle> list2 = bulletinBoardArticleRepository.findAll();
 
