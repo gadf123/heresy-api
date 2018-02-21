@@ -1,8 +1,7 @@
 package heresy.controller.BulletinBoardArticle;
 
 import heresy.controller.BulletinBoardArticle.BulletinBoardArticleController;
-import heresy.domain.BulletinBoardArticle.BulletinBoardArticle;
-import heresy.domain.BulletinBoardArticle.BulletinBoardArticle;
+import heresy.domain.BulletinBoardArticle;
 import heresy.repository.BulletinBoardArticleRepository;
 import heresy.repository.BulletinBoardArticleRepository;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package heresy.repository;
 
-import heresy.domain.BulletinBoardArticle.BulletinBoardArticle;
+import heresy.domain.BulletinBoardArticle;
 import heresy.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
