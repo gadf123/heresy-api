@@ -1,25 +1,32 @@
 package heresy.domain.user;
 
-import lombok.Data;
+import domain33.embed.CommonDate;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @Entity
+//@Table(name = "User")
 public class User {
 
-    public User() {
-    }
-
-    public User(Long userIdx, String userNickName) {
-        this.userIdx = userIdx;
+    public User(String userId, String userNickName, String password, String confirmPassword, UserExperience userExperience, int tendency, UserHomeTown userHometown, List<UserTitle> myTitles, UserJob userJob, String introduction, int authSnsIdx, CommonDate commonDate) {
+        this.userId = userId;
         this.userNickName = userNickName;
+        this.password = password;
+        this.confirmPassword = confirmPassword;
+        this.userExperience = userExperience;
+        this.tendency = tendency;
+        this.userHometown = userHometown;
+        this.myTitles = myTitles;
+        this.userJob = userJob;
+        this.introduction = introduction;
+        this.authSnsIdx = authSnsIdx;
+        this.commonDate = commonDate;
     }
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private Long userIdx;
 
     private String userId;
@@ -31,7 +38,25 @@ public class User {
     @Transient
     private String confirmPassword;
 
+    @OneToOne
+    @JoinColumn(name = "userIdx")
+    private UserExperience userExperience;
+
     private int tendency;
+//
+
+    @OneToOne
+    @JoinColumn(name = "userIdx")
+    private UserHomeTown userHometown;
+
+    // 호칭
+    @OneToMany
+    @JoinColumn(name = "userIdx")
+    private List<UserTitle> myTitles = new ArrayList<>();
+
+    @OneToOne
+    @JoinColumn(name = "userIdx")
+    private UserJob userJob;
 
     // 자기소개
     private String introduction;
@@ -39,6 +64,8 @@ public class User {
     // sns 계정
     private int authSnsIdx;
 
+    @Embedded
+    private CommonDate commonDate;
 
     public Long getUserIdx() {
         return userIdx;
@@ -80,6 +107,14 @@ public class User {
         this.confirmPassword = confirmPassword;
     }
 
+    public UserExperience getUserExperience() {
+        return userExperience;
+    }
+
+    public void setUserExperience(UserExperience userExperience) {
+        this.userExperience = userExperience;
+    }
+
     public int getTendency() {
         return tendency;
     }
@@ -87,7 +122,46 @@ public class User {
     public void setTendency(int tendency) {
         this.tendency = tendency;
     }
+//
+//    public Collection<Role> getRoles() {
+//        return roles;
+//    }
+//
+//    public void setRoles(Collection<Role> roles) {
+//        this.roles = roles;
+//    }
 
+    public UserHomeTown getUserHometown() {
+//    @ManyToMany
+//    @JoinTable(
+//            name = "users_roles",
+//            joinColumns = @JoinColumn(
+//                    name = "user_id", referencedColumnName = "id"),
+//            inverseJoinColumns = @JoinColumn(
+//                    name = "role_id", referencedColumnName = "id"))
+//    private Collection<Role> roles;
+        return userHometown;
+    }
+
+    public void setUserHometown(UserHomeTown userHometown) {
+        this.userHometown = userHometown;
+    }
+
+    public List<UserTitle> getMyTitles() {
+        return myTitles;
+    }
+
+    public void setMyTitles(List<UserTitle> myTitles) {
+        this.myTitles = myTitles;
+    }
+
+    public UserJob getUserJob() {
+        return userJob;
+    }
+
+    public void setUserJob(UserJob userJob) {
+        this.userJob = userJob;
+    }
 
     public String getIntroduction() {
         return introduction;
@@ -105,17 +179,11 @@ public class User {
         this.authSnsIdx = authSnsIdx;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "userIdx=" + userIdx +
-                ", userId='" + userId + '\'' +
-                ", userNickName='" + userNickName + '\'' +
-                ", password='" + password + '\'' +
-                ", confirmPassword='" + confirmPassword + '\'' +
-                ", tendency=" + tendency +
-                ", introduction='" + introduction + '\'' +
-                ", authSnsIdx=" + authSnsIdx +
-                '}';
+    public CommonDate getCommonDate() {
+        return commonDate;
+    }
+
+    public void setCommonDate(CommonDate commonDate) {
+        this.commonDate = commonDate;
     }
 }

@@ -1,9 +1,6 @@
 package BulletinBoardArticleServiceTest;
 
-import domain.BulletinBoardArticle;
-import heresy.domain.user.User;
 import heresy.repository.BulletinBoardArticleRepository;
-import heresy.repository.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
