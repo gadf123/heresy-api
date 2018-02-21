@@ -11,6 +11,8 @@ public class UserHomeTown {
 
     private int userIdx;
 
+    private int hometownIdx;
+
     @OneToOne
     @JoinColumn(name = "hometownIdx")
     private HomeTown homeTown;

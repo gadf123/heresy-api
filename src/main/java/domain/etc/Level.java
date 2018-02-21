@@ -2,7 +2,7 @@ package domain.etc;
 
 public class Level {
 
-    private int idx;
+    private int levelIdx;
 
     private int degree;
 

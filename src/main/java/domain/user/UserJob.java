@@ -7,14 +7,12 @@ import javax.persistence.OneToOne;
 
 public class UserJob {
 
-    private int idx;
-
     private int userIdx;
 
-    private int jobId;
+    private int jobIdx;
 
     @OneToOne
-    @JoinColumn(name = "jobId")
+    @JoinColumn(name = "jobIdx")
     private Job job;
 
 }

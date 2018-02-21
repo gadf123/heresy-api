@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/comment/CommentId.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" afterPath="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" afterPath="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" afterPath="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,53 +24,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserExperience.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java">
+      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTitle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java">
+      <file leaf-file-name="HomeTown.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgendaBoardArticle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
+      <file leaf-file-name="Titles.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Titles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AgendaBoardComment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java">
+      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,40 +67,58 @@
       <file leaf-file-name="UserJob.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
+      <file leaf-file-name="BulletinBoardArticleServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/user/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BulletinBoardArticleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserHomeTown.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java">
+      <file leaf-file-name="BulletinBoardArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="43">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BulletinBoardArticleRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -152,11 +165,12 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Privilege.java" />
         <option value="$PROJECT_DIR$/src/main/resources/user.sql" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
       </list>
     </option>
   </component>
@@ -166,10 +180,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="841" />
+    <option name="height" value="840" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,6 +251,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="embed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,6 +270,71 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="BulletinBoardArticle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="BulletinBoardArticle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -267,13 +356,20 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BulletinBoardArticleServiceTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -284,123 +380,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/domain" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/heresy/controller/user/UserController.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/heresy/config/WebConfigration.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -414,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -531,17 +521,27 @@
       <workItem from="1516801214885" duration="190000" />
       <workItem from="1516801421842" duration="1944000" />
       <workItem from="1517154334577" duration="960000" />
+      <workItem from="1518400473444" duration="4609000" />
     </task>
+    <task id="LOCAL-00001" summary="setting">
+      <created>1518155009226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1518155009229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6050000" />
+    <option name="totallyTimeSpent" value="11088000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="840" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -552,7 +552,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,37 +564,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,34 +583,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="setting" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="14" lean-forward="false" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Greeting.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/hello/GreetingControllerTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/GreetingController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/hello/Application.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -703,97 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/comment/CommentId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Recommend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Tendency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Titles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/UploadFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/DebateBoardComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/DebateBoradArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Privilege.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,25 +683,221 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/user.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
+    <entry file="uml://JAVA/domain">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>domain</OriginalElement>
+          <nodes>
+            <node x="899.7292857142854" y="1029.0">domain.board.BasicBoardArticle</node>
+            <node x="1175.333333333333" y="189.0">domain.embed.CommonDate</node>
+            <node x="1709.833333333333" y="22.0">domain.etc.Titles</node>
+            <node x="294.1323809523806" y="775.0">domain.embed.Tendency</node>
+            <node x="753.2780952380949" y="189.0">domain.embed.Recommend</node>
+            <node x="1648.645952380952" y="344.0">domain.user.User</node>
+            <node x="468.6876190476187" y="1018.0">domain.board.DebateBoradArticle</node>
+            <node x="81.77809523809492" y="476.0">domain.comment.CommentId</node>
+            <node x="1366.333333333333" y="167.0">domain.user.UserExperience</node>
+            <node x="588.2499999999999" y="421.0">domain.Comment</node>
+            <node x="1028.9166666666665" y="731.0">domain.BulletinBoardArticle</node>
+            <node x="1878.333333333333" y="167.0">domain.user.Role</node>
+            <node x="831.9166666666665" y="830.0">domain.board.BasicBoardComment</node>
+            <node x="565.9999999999999" y="819.0">domain.board.DebateBoardComment</node>
+            <node x="2156.333333333333" y="189.0">domain.user.UserHomeTown</node>
+            <node x="1535.833333333333" y="0.0">domain.etc.Job</node>
+            <node x="2155.333333333333" y="22.0">domain.etc.HomeTown</node>
+            <node x="1904.833333333333" y="11.0">domain.user.Privilege</node>
+            <node x="1080.333333333333" y="454.0">domain.board.UploadFiles</node>
+            <node x="0.0" y="1136.0">domain.etc.Level</node>
+            <node x="0.0" y="819.0">domain.board.AgendaBoardComment</node>
+            <node x="1693.333333333333" y="167.0">domain.user.UserTitle</node>
+            <node x="47.68761904761868" y="1018.0">domain.board.AgendaBoardArticle</node>
+            <node x="1540.333333333333" y="167.0">domain.user.UserJob</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
+              <point x="47.74999999999977" y="-25.5" />
+              <point x="143.24999999999977" y="711.0" />
+              <point x="627.5833333333331" y="711.0" />
+              <point x="-78.66666666666674" y="91.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
+              <point x="-97.25" y="-25.5" />
+              <point x="996.9792857142854" y="978.0" />
+              <point x="920.4166666666665" y="978.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="domain.user.Privilege" target="domain.user.Role">
+              <point x="51.25" y="47.5" />
+              <point x="2058.583333333333" y="142.0" />
+              <point x="2071.833333333333" y="142.0" />
+              <point x="64.5" y="-58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
+              <point x="0.0" y="-36.5" />
+              <point x="248.18761904761868" y="998.0" />
+              <point x="332.8823809523806" y="998.0" />
+              <point x="-38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserJob">
+              <point x="-37.85714285714289" y="-168.5" />
+              <point x="1743.288809523809" y="304.0" />
+              <point x="1606.833333333333" y="304.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserTitle">
+              <point x="0.0" y="-168.5" />
+              <point x="1781.145952380952" y="324.0" />
+              <point x="1775.833333333333" y="324.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="133.66666666666674" y="-36.5" />
+              <point x="381.8542857142854" y="988.0" />
+              <point x="1073.25" y="988.0" />
+              <point x="-88.66666666666663" y="113.5" />
+            </edge>
+            <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.user.UserJob" target="domain.etc.Job">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
+              <point x="-131.33333333333348" y="-36.5" />
+              <point x="534.3542857142852" y="978.0" />
+              <point x="410.3823809523806" y="978.0" />
+              <point x="38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.embed.CommonDate">
+              <point x="-113.57142857142856" y="-168.5" />
+              <point x="1667.5745238095233" y="324.0" />
+              <point x="1317.833333333333" y="324.0" />
+              <point x="57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
+              <point x="-47.75000000000023" y="-25.5" />
+              <point x="47.74999999999977" y="711.0" />
+              <point x="124.52809523809492" y="711.0" />
+              <point x="-42.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.Comment">
+              <point x="46.75" y="-25.5" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
+              <point x="131.33333333333326" y="-36.5" />
+              <point x="797.0209523809519" y="998.0" />
+              <point x="1161.9166666666665" y="998.0" />
+              <point x="0.0" y="113.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserHomeTown">
+              <point x="113.57142857142856" y="-168.5" />
+              <point x="1894.7173809523806" y="324.0" />
+              <point x="2261.333333333333" y="324.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardComment" target="domain.Comment">
+              <point x="0.0" y="-14.5" />
+              <point x="920.4166666666665" y="711.0" />
+              <point x="784.9166666666666" y="711.0" />
+              <point x="78.66666666666674" y="91.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.Role">
+              <point x="37.85714285714289" y="-168.5" />
+              <point x="1819.0030952380948" y="304.0" />
+              <point x="1942.833333333333" y="304.0" />
+              <point x="-64.5" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserExperience">
+              <point x="-75.71428571428572" y="-168.5" />
+              <point x="1705.4316666666662" y="314.0" />
+              <point x="1443.333333333333" y="314.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
+              <point x="-88.66666666666686" y="-113.5" />
+              <point x="1073.2499999999998" y="711.0" />
+              <point x="1006.4240476190472" y="711.0" />
+              <point x="1006.4240476190472" y="314.0" />
+              <point x="845.5280952380949" y="314.0" />
+              <point x="30.75" y="36.5" />
+            </edge>
+            <edge source="domain.user.UserTitle" target="domain.etc.Titles">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
+              <point x="88.66666666666652" y="-113.5" />
+              <point x="1250.583333333333" y="711.0" />
+              <point x="1260.833333333333" y="711.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.CommonDate">
+              <point x="59.0" y="-91.5" />
+              <point x="765.2499999999999" y="324.0" />
+              <point x="1203.833333333333" y="324.0" />
+              <point x="-57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="97.25" y="-25.5" />
+              <point x="1191.4792857142854" y="998.0" />
+              <point x="1250.5833333333333" y="998.0" />
+              <point x="88.66666666666663" y="113.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.User">
+              <point x="64.5" y="58.5" />
+              <point x="2071.833333333333" y="314.0" />
+              <point x="1856.8602380952375" y="314.0" />
+              <point x="75.71428571428567" y="-168.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.Privilege">
+              <point x="-64.5" y="-58.5" />
+              <point x="1942.833333333333" y="142.0" />
+              <point x="1956.083333333333" y="142.0" />
+              <point x="-51.25" y="47.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
+              <point x="-46.75" y="-25.5" />
+              <point x="612.7499999999999" y="701.0" />
+              <point x="210.02809523809492" y="701.0" />
+              <point x="42.75" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
+              <point x="-1.1368683772161603E-13" y="-113.5" />
+              <point x="1161.9166666666665" y="711.0" />
+              <point x="1165.333333333333" y="711.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
+              <point x="-133.66666666666652" y="-36.5" />
+              <point x="114.52095238095217" y="998.0" />
+              <point x="95.5" y="998.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.Recommend">
+              <point x="-59.0" y="-91.5" />
+              <point x="647.2499999999999" y="314.0" />
+              <point x="784.0280952380949" y="314.0" />
+              <point x="-30.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
+              <point x="0.0" y="-36.5" />
+              <point x="665.6876190476187" y="978.0" />
+              <point x="659.4999999999999" y="978.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5149539897988624" x="57.0" y="838.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -839,10 +909,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/DebateBoardComment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/comment/CommentId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -855,10 +965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Privilege.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="195">
+          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -866,254 +976,178 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="812">
+          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/DebateBoradArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Tendency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Titles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/domain">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>domain</OriginalElement>
-          <nodes>
-            <node x="1138.5" y="189.0">domain.embed.CommonDate</node>
-            <node x="1464.4749999999997" y="1030.0">domain.board.BasicBoardArticle</node>
-            <node x="685.2266666666665" y="22.0">domain.etc.Titles</node>
-            <node x="866.5183333333331" y="765.0">domain.embed.Tendency</node>
-            <node x="1689.1133333333328" y="189.0">domain.embed.Recommend</node>
-            <node x="281.55833333333305" y="334.0">domain.user.User</node>
-            <node x="667.875" y="466.0">domain.comment.CommentId</node>
-            <node x="1033.433333333333" y="1019.0">domain.board.DebateBoradArticle</node>
-            <node x="157.5" y="167.0">domain.user.UserExperience</node>
-            <node x="1165.0" y="411.0">domain.Comment</node>
-            <node x="1549.9299999999998" y="721.0">domain.BulletinBoardArticle</node>
-            <node x="285.05833333333305" y="776.0">domain.user.Role</node>
-            <node x="1101.803333333333" y="809.0">domain.board.DebateBoardComment</node>
-            <node x="1352.9299999999998" y="820.0">domain.board.BasicBoardComment</node>
-            <node x="331.5" y="189.0">domain.user.UserHomeTown</node>
-            <node x="330.5" y="22.0">domain.etc.HomeTown</node>
-            <node x="0.0" y="0.0">domain.etc.Job</node>
-            <node x="311.55833333333305" y="1008.0">domain.user.Privilege</node>
-            <node x="1600.8633333333328" y="444.0">domain.board.UploadFiles</node>
-            <node x="-14.86722493241544" y="355.78930002986453">domain.etc.Level</node>
-            <node x="563.183333333333" y="809.0">domain.board.AgendaBoardComment</node>
-            <node x="668.7266666666665" y="167.0">domain.user.UserTitle</node>
-            <node x="612.4333333333329" y="1019.0">domain.board.AgendaBoardArticle</node>
-            <node x="4.5" y="167.0">domain.user.UserJob</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
-              <point x="47.75" y="-25.5" />
-              <point x="706.433333333333" y="701.0" />
-              <point x="1204.3333333333333" y="701.0" />
-              <point x="-78.66666666666663" y="91.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
-              <point x="-97.25" y="-25.5" />
-              <point x="1561.7249999999997" y="968.0" />
-              <point x="1441.4299999999998" y="968.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="domain.user.Privilege" target="domain.user.Role">
-              <point x="-51.25" y="-47.5" />
-              <point x="362.80833333333305" y="988.0" />
-              <point x="349.55833333333305" y="988.0" />
-              <point x="-64.5" y="58.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
-              <point x="2.8421709430404007E-14" y="-36.5" />
-              <point x="812.933333333333" y="988.0" />
-              <point x="905.2683333333331" y="988.0" />
-              <point x="-38.75" y="69.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserTitle">
-              <point x="53.0" y="-168.5" />
-              <point x="467.05833333333305" y="304.0" />
-              <point x="751.2266666666665" y="304.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserJob">
-              <point x="-106.0" y="-168.5" />
-              <point x="308.05833333333305" y="314.0" />
-              <point x="71.0" y="314.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
-              <point x="133.66666666666663" y="-36.5" />
-              <point x="946.5999999999997" y="978.0" />
-              <point x="1594.263333333333" y="978.0" />
-              <point x="-88.66666666666674" y="113.5" />
-            </edge>
-            <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
-              <point x="0.0" y="-36.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
-              <point x="-131.33333333333337" y="-36.5" />
-              <point x="1099.0999999999997" y="968.0" />
-              <point x="982.7683333333331" y="968.0" />
-              <point x="38.75" y="69.5" />
-            </edge>
-            <edge source="domain.user.UserJob" target="domain.etc.Job">
-              <point x="0.0" y="-58.5" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.embed.CommonDate">
-              <point x="106.0" y="-168.5" />
-              <point x="520.058333333333" y="314.0" />
-              <point x="1167.0" y="314.0" />
-              <point x="-57.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
-              <point x="-47.75" y="-25.5" />
-              <point x="610.933333333333" y="691.0" />
-              <point x="710.625" y="691.0" />
-              <point x="-42.75" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoardComment" target="domain.Comment">
-              <point x="46.75" y="-25.5" />
-              <point x="1242.053333333333" y="701.0" />
-              <point x="1283.0" y="701.0" />
-              <point x="0.0" y="91.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
-              <point x="131.33333333333337" y="-36.5" />
-              <point x="1361.7666666666664" y="988.0" />
-              <point x="1682.9299999999998" y="988.0" />
-              <point x="0.0" y="113.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserHomeTown">
-              <point x="0.0" y="-168.5" />
-              <point x="414.05833333333305" y="314.0" />
-              <point x="436.5" y="314.0" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardComment" target="domain.Comment">
-              <point x="0.0" y="-14.5" />
-              <point x="1441.4299999999998" y="701.0" />
-              <point x="1361.6666666666665" y="701.0" />
-              <point x="78.66666666666663" y="91.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.Role">
-              <point x="66.25" y="168.5" />
-              <point x="480.30833333333305" y="701.0" />
-              <point x="478.55833333333305" y="701.0" />
-              <point x="64.5" y="-58.5" />
-            </edge>
-            <edge source="domain.user.UserTitle" target="domain.etc.Titles">
-              <point x="0.0" y="-58.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.user.User" target="domain.user.UserExperience">
-              <point x="-53.0" y="-168.5" />
-              <point x="361.05833333333305" y="304.0" />
-              <point x="234.5" y="304.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
-              <point x="88.66666666666674" y="-113.5" />
-              <point x="1771.5966666666666" y="701.0" />
-              <point x="1781.3633333333328" y="701.0" />
-              <point x="30.75" y="36.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
-              <point x="-88.66666666666674" y="-113.5" />
-              <point x="1594.263333333333" y="701.0" />
-              <point x="1545.2199999999998" y="701.0" />
-              <point x="1545.2199999999998" y="304.0" />
-              <point x="1281.0" y="304.0" />
-              <point x="57.0" y="36.5" />
-            </edge>
-            <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
-              <point x="97.25" y="-25.5" />
-              <point x="1756.2249999999997" y="988.0" />
-              <point x="1771.5966666666666" y="988.0" />
-              <point x="88.66666666666674" y="113.5" />
-            </edge>
-            <edge source="domain.Comment" target="domain.embed.CommonDate">
-              <point x="-59.0" y="-91.5" />
-              <point x="0.0" y="36.5" />
-            </edge>
-            <edge source="domain.user.Role" target="domain.user.User">
-              <point x="-64.5" y="-58.5" />
-              <point x="349.55833333333305" y="701.0" />
-              <point x="347.80833333333305" y="701.0" />
-              <point x="-66.25" y="168.5" />
-            </edge>
-            <edge source="domain.user.Role" target="domain.user.Privilege">
-              <point x="64.5" y="58.5" />
-              <point x="478.55833333333305" y="988.0" />
-              <point x="465.30833333333305" y="988.0" />
-              <point x="51.25" y="-47.5" />
-            </edge>
-            <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
-              <point x="-46.75" y="-25.5" />
-              <point x="1148.553333333333" y="691.0" />
-              <point x="796.125" y="691.0" />
-              <point x="42.75" y="36.5" />
-            </edge>
-            <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
-              <point x="0.0" y="-113.5" />
-              <point x="1682.9299999999998" y="701.0" />
-              <point x="1685.8633333333328" y="701.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
-              <point x="-133.66666666666663" y="-36.5" />
-              <point x="679.2666666666664" y="988.0" />
-              <point x="658.683333333333" y="988.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-            <edge source="domain.Comment" target="domain.embed.Recommend">
-              <point x="59.0" y="-91.5" />
-              <point x="1342.0" y="314.0" />
-              <point x="1719.8633333333328" y="314.0" />
-              <point x="-30.75" y="36.5" />
-            </edge>
-            <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
-              <point x="0.0" y="-36.5" />
-              <point x="1230.433333333333" y="968.0" />
-              <point x="1195.303333333333" y="968.0" />
-              <point x="0.0" y="25.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.4708343373979438" x="953.0" y="600.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/user/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

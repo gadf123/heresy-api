@@ -23,9 +23,7 @@ public class User {
     @Transient
     private String confirmPassword;
 
-    @OneToOne
-    @JoinColumn(name = "userIdx")
-    private UserExperience userExperience;
+    private int experience;
 
     private int tendency;
 
@@ -55,7 +53,7 @@ public class User {
     private String introduction;
 
     // sns 계정
-    private int authSnsIdx;
+    private String authSnsId;
 
     @Embedded
     private CommonDate commonDate;
