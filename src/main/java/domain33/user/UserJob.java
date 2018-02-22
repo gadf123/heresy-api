@@ -1,18 +1,22 @@
 package domain33.user;
 
-import domain33.etc.Job;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.util.Date;
 
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
-
+@Entity
 public class UserJob {
+
+    @Id
+    @GeneratedValue
+    private int idx;
 
     private int userIdx;
 
     private int jobIdx;
 
-    @OneToOne
-    @JoinColumn(name = "jobIdx")
-    private Job job;
+    private Date createDate;
 
+    private Date updateDate;
 }

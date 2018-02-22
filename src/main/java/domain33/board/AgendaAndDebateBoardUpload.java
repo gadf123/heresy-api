@@ -6,25 +6,17 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class BasicBoardArticle {
+public class AgendaAndDebateBoardUpload {
 
     @Id
     @GeneratedValue
     private int idx;
 
-    private int subBoardIdx;
+    private String fileName;
 
-    private String title;
+    private int articleIdx;
 
     private int userIdx;
-
-    private String userNickName;
-
-    private String content;
-
-    private int good;
-
-    private int bad;
 
     private Date createDate;
 

@@ -1,18 +1,17 @@
 package domain33.user;
 
-import domain33.embed.CommonDate;
-
-import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Transient;
+import java.util.Date;
 
 @Entity
 public class User {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
-    private Long userIdx;
+    @GeneratedValue
+    private int idx;
 
     private String userId;
 
@@ -27,35 +26,12 @@ public class User {
 
     private int tendency;
 
-    @ManyToMany
-    @JoinTable(
-            name = "users_roles",
-            joinColumns = @JoinColumn(
-                    name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(
-                    name = "role_id", referencedColumnName = "id"))
-    private Collection<Role> roles;
+    private int introduction;
 
-    @OneToOne
-    @JoinColumn(name = "userIdx")
-    private UserHomeTown userHometown;
-
-    // 호칭
-    @OneToMany
-    @JoinColumn(name = "userIdx")
-    private List<UserTitle> myTitles = new ArrayList<>();
-
-    @OneToOne
-    @JoinColumn(name = "userIdx")
-    private UserJob userJob;
-
-    // 자기소개
-    private String introduction;
-
-    // sns 계정
     private String authSnsId;
 
-    @Embedded
-    private CommonDate commonDate;
+    private Date createDate;
+
+    private Date updateDate;
 
 }

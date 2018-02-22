@@ -1,7 +1,7 @@
 package heresy.domain.board;
 
-import domain33.BulletinBoardArticle;
-import domain33.embed.Tendency;
+import heresy.domain.BulletinBoardArticle;
+import heresy.domain.embed.Tendency;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

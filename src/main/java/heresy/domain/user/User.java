@@ -1,6 +1,6 @@
 package heresy.domain.user;
 
-import domain33.embed.CommonDate;
+import heresy.domain.embed.CommonDate;
 
 import javax.persistence.*;
 import java.util.ArrayList;

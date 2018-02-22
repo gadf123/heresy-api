@@ -6,21 +6,17 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class BasicBoardArticle {
+public class AgendaAndDebateComment {
 
     @Id
     @GeneratedValue
     private int idx;
 
-    private int subBoardIdx;
-
-    private String title;
+    private int articleIdx;
 
     private int userIdx;
 
-    private String userNickName;
-
-    private String content;
+    private String comment;
 
     private int good;
 

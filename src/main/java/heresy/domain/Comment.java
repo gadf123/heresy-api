@@ -1,7 +1,7 @@
 package heresy.domain;
 
-import domain33.embed.CommonDate;
-import domain33.embed.Recommend;
+import heresy.domain.embed.CommonDate;
+import heresy.domain.embed.Recommend;
 
 import javax.persistence.Embedded;
 import javax.persistence.GeneratedValue;

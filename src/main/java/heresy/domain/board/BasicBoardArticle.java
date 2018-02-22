@@ -1,6 +1,7 @@
 package heresy.domain.board;
 
-import domain33.BulletinBoardArticle;
+
+import heresy.domain.BulletinBoardArticle;
 
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;

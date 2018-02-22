@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class BasicBoardArticle {
+public class AgendaAndDebateBoardArticle {
 
     @Id
     @GeneratedValue
