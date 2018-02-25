@@ -1,80 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardArticle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardUpload.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateComment.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardUpload.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/Tendency.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Hometown.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Job.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Level.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Privileges.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Role.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/common/Title.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserHometown.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserRoles.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/BulletinBoardArticle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/Comment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardComment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoardComment.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoradArticle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/board/UploadFiles.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/comment/CommentId.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/embed/CommonDate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/embed/Recommend.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/embed/Tendency.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/etc/HomeTown.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/etc/Job.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/etc/Level.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/etc/Titles.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/Privilege.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/Role.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/UserExperience.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/UserHomeTown.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/BulletinBoardArticle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/Comment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/AgendaBoardArticle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/AgendaBoardComment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/BasicBoardArticle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/BasicBoardComment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/DebateBoardComment.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/DebateBoradArticle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/board/UploadFiles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/embed/CommonDate.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/embed/Recommend.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/embed/Tendency.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/etc/HomeTown.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/etc/Job.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/etc/Level.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/etc/Titles.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/Privilege.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/Role.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserExperience.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserHomeTown.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserJob.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/domain/user/UserTitle.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/Application.class" afterPath="$PROJECT_DIR$/target/classes/heresy/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/controller/greeting/Greeting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/controller/greeting/GreetingController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/controller/sample/SampleController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/controller/user/UserController.class" afterPath="$PROJECT_DIR$/target/classes/heresy/controller/user/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/heresy/domain/user/User.class" afterPath="$PROJECT_DIR$/target/classes/heresy/domain/user/User.class" />
+    <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="게시판 CRUD 개발">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoardComment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/UploadFiles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/CommonDate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/Recommend.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/Tendency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/HomeTown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Job.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Level.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Titles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/Privilege.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/Role.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserExperience.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserHomeTown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserJob.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserTitle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/createSql.sql" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/BulletinBoardArticle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/Comment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardComment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/BasicBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/DebateBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoardComment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/DebateBoradArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoradArticle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/UploadFiles.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/UploadFiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/comment/CommentId.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/comment/CommentId.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/CommonDate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/Recommend.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/Recommend.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/Tendency.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/Tendency.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/HomeTown.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Job.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Level.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Titles.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Titles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/Privilege.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/Privilege.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/Role.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserExperience.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserHomeTown.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/Application.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserHometown.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserHometown.java">
+      <file leaf-file-name="AgendaBoardComment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,35 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserJob.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java">
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-190">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRoles.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserRoles.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserTitle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java">
+      <file leaf-file-name="BulletinBoardArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,11 +106,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hometown.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Hometown.java">
+      <file leaf-file-name="createSql.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/createSql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="313">
+              <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DebateBoardComment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoardComment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicBoardComment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,59 +138,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Job.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Job.java">
+      <file leaf-file-name="BasicBoardArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Level.java">
+      <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Privileges.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Privileges.java">
+      <file leaf-file-name="AgendaBoardArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Role.java">
+      <file leaf-file-name="CommentId.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Title.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Title.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,6 +189,27 @@
       </list>
     </option>
   </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bullet</find>
+      <find>userController</find>
+      <find>User</find>
+      <find>user</find>
+      <find>Type</find>
+      <find>UserTitle</find>
+      <find>userTitle</find>
+      <find>rol</find>
+      <find>@Table</find>
+      <find>uploadImages</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>BulletinBoardArticle</replace>
+      <replace>bulletinBoardArticle</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/hello/GreetingController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/DebateBoardComment.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/domain/AgendaBoardArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/board/BulletinBoardArticle.java" />
@@ -250,35 +240,39 @@
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Privilege.java" />
         <option value="$PROJECT_DIR$/src/main/resources/user.sql" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/User_B.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/etc/HomeTown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Level.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Titles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/Privilege.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardUpload.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardUpload.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/board/Tendency.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/user/UserHometown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/user/UserRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Hometown.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Job.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Level.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Privileges.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain33/common/Title.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserExperience.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserHomeTown.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserTitle.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/createSql.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserJob.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/embed/Recommend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoardComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" />
       </list>
     </option>
   </component>
@@ -289,9 +283,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+    <option name="x" value="320" />
+    <option name="y" value="74" />
     <option name="width" value="1440" />
-    <option name="height" value="840" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -309,7 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -317,6 +311,11 @@
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -360,7 +359,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain33" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="comment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -368,7 +367,44 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain33" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="BulletinBoardArticle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,6 +414,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -387,6 +424,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="heresy" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -397,6 +435,26 @@
               <item name="heresy" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="embed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -422,33 +480,139 @@
               <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="heresy" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BulletinBoardArticleServiceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-boot-autoconfigure-1.5.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigure" type="462c0819:PsiDirectoryNode" />
+              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.13.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.13.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.13.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.13.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:1.13.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-1.13.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
     </panes>
@@ -460,16 +624,24 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SearchEverywhereHistoryKey" value="BasicBoardArticle&#9;FILE&#9;file:///Users/updown/Desktop/dev/heresy-api/src/main/java/heresy/domain/board/BasicBoardArticle.java&#10;DebateBoardComment&#9;FILE&#9;file:///Users/updown/Desktop/dev/heresy-api/src/main/java/heresy/domain/board/DebateBoardComment.java&#10;AgendaBoardComment&#9;PSI&#9;JAVA://heresy.domain.board.AgendaBoardComment&#10;BulletinBoardArticle&#9;FILE&#9;file:///Users/updown/Desktop/dev/heresy-api/src/main/java/heresy/domain/BulletinBoardArticle.java&#10;a&#9;FILE&#9;file:///Users/updown/Desktop/dev/heresy-api/src/main/java/heresy/Application.java&#10;appl&#9;PSI&#9;JAVA://heresy.Application" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="SearchEverywhereHistoryKey" value="int idx;&#9;null&#9;null" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="heresy.domain.comment" />
+      <recent name="heresy.domain.BulletinBoardArticle" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/heresy/domain" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/domain" />
     </key>
   </component>
@@ -485,7 +657,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (1)">
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="heresy.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="heresy-api" />
+      <envs />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="heresy.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="heresy-api" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -527,24 +713,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-    </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="heresy.Application" />
-      <module name="heresy-api" />
-      <envs />
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.Application" />
-      <module name="heresy-api" />
-      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -573,16 +753,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.Application" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.Application (1)" />
-    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -602,61 +772,68 @@
       <workItem from="1516801214885" duration="190000" />
       <workItem from="1516801421842" duration="1944000" />
       <workItem from="1517154334577" duration="960000" />
-      <workItem from="1518400473444" duration="4609000" />
-      <workItem from="1519214945022" duration="2378000" />
+      <workItem from="1518396294928" duration="5118000" />
+      <workItem from="1519130509709" duration="5235000" />
     </task>
-    <task id="LOCAL-00001" summary="setting">
-      <created>1518155009226</created>
+    <task id="LOCAL-00001" summary="게시판 CRUD 개발">
+      <created>1518423630992</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1518155009229</updated>
+      <updated>1518423630992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="게시판 CRUD 개발">
+      <created>1518519492531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1518519492531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13466000" />
+    <option name="totallyTimeSpent" value="16403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40870616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3431232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,60 +843,628 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting" />
+    <MESSAGE value="게시판 CRUD 개발" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시판 CRUD 개발" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/User.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/Role.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/DebateBoradArticle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/BasicBoardComment.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Tendency.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/embed/Recommend.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Comment.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Job.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Titles.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/etc/Level.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/domain">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>domain</OriginalElement>
+          <nodes>
+            <node x="1138.5" y="189.0">domain.embed.CommonDate</node>
+            <node x="1464.4749999999997" y="1030.0">domain.board.BasicBoardArticle</node>
+            <node x="685.2266666666665" y="22.0">domain.etc.Titles</node>
+            <node x="866.5183333333331" y="765.0">domain.embed.Tendency</node>
+            <node x="1689.1133333333328" y="189.0">domain.embed.Recommend</node>
+            <node x="281.55833333333305" y="334.0">domain.user.User</node>
+            <node x="667.875" y="466.0">domain.comment.CommentId</node>
+            <node x="1033.433333333333" y="1019.0">domain.board.DebateBoradArticle</node>
+            <node x="157.5" y="167.0">domain.user.UserExperience</node>
+            <node x="1165.0" y="411.0">domain.Comment</node>
+            <node x="1549.9299999999998" y="721.0">domain.BulletinBoardArticle</node>
+            <node x="285.05833333333305" y="776.0">domain.user.Role</node>
+            <node x="1101.803333333333" y="809.0">domain.board.DebateBoardComment</node>
+            <node x="1352.9299999999998" y="820.0">domain.board.BasicBoardComment</node>
+            <node x="331.5" y="189.0">domain.user.UserHomeTown</node>
+            <node x="330.5" y="22.0">domain.etc.HomeTown</node>
+            <node x="0.0" y="0.0">domain.etc.Job</node>
+            <node x="311.55833333333305" y="1008.0">domain.user.Privilege</node>
+            <node x="1600.8633333333328" y="444.0">domain.board.UploadFiles</node>
+            <node x="-14.86722493241544" y="355.78930002986453">domain.etc.Level</node>
+            <node x="563.183333333333" y="809.0">domain.board.AgendaBoardComment</node>
+            <node x="668.7266666666665" y="167.0">domain.user.UserTitle</node>
+            <node x="612.4333333333329" y="1019.0">domain.board.AgendaBoardArticle</node>
+            <node x="4.5" y="167.0">domain.user.UserJob</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="domain.board.AgendaBoardComment" target="domain.Comment">
+              <point x="47.75" y="-25.5" />
+              <point x="706.433333333333" y="701.0" />
+              <point x="1204.3333333333333" y="701.0" />
+              <point x="-78.66666666666663" y="91.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.board.BasicBoardComment">
+              <point x="-97.25" y="-25.5" />
+              <point x="1561.7249999999997" y="968.0" />
+              <point x="1441.4299999999998" y="968.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="domain.user.Privilege" target="domain.user.Role">
+              <point x="-51.25" y="-47.5" />
+              <point x="362.80833333333305" y="988.0" />
+              <point x="349.55833333333305" y="988.0" />
+              <point x="-64.5" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.embed.Tendency">
+              <point x="2.8421709430404007E-14" y="-36.5" />
+              <point x="812.933333333333" y="988.0" />
+              <point x="905.2683333333331" y="988.0" />
+              <point x="-38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserTitle">
+              <point x="53.0" y="-168.5" />
+              <point x="467.05833333333305" y="304.0" />
+              <point x="751.2266666666665" y="304.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserJob">
+              <point x="-106.0" y="-168.5" />
+              <point x="308.05833333333305" y="314.0" />
+              <point x="71.0" y="314.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="133.66666666666663" y="-36.5" />
+              <point x="946.5999999999997" y="978.0" />
+              <point x="1594.263333333333" y="978.0" />
+              <point x="-88.66666666666674" y="113.5" />
+            </edge>
+            <edge source="domain.user.UserHomeTown" target="domain.etc.HomeTown">
+              <point x="0.0" y="-36.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.embed.Tendency">
+              <point x="-131.33333333333337" y="-36.5" />
+              <point x="1099.0999999999997" y="968.0" />
+              <point x="982.7683333333331" y="968.0" />
+              <point x="38.75" y="69.5" />
+            </edge>
+            <edge source="domain.user.UserJob" target="domain.etc.Job">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.embed.CommonDate">
+              <point x="106.0" y="-168.5" />
+              <point x="520.058333333333" y="314.0" />
+              <point x="1167.0" y="314.0" />
+              <point x="-57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardComment" target="domain.comment.CommentId">
+              <point x="-47.75" y="-25.5" />
+              <point x="610.933333333333" y="691.0" />
+              <point x="710.625" y="691.0" />
+              <point x="-42.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.Comment">
+              <point x="46.75" y="-25.5" />
+              <point x="1242.053333333333" y="701.0" />
+              <point x="1283.0" y="701.0" />
+              <point x="0.0" y="91.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.BulletinBoardArticle">
+              <point x="131.33333333333337" y="-36.5" />
+              <point x="1361.7666666666664" y="988.0" />
+              <point x="1682.9299999999998" y="988.0" />
+              <point x="0.0" y="113.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserHomeTown">
+              <point x="0.0" y="-168.5" />
+              <point x="414.05833333333305" y="314.0" />
+              <point x="436.5" y="314.0" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardComment" target="domain.Comment">
+              <point x="0.0" y="-14.5" />
+              <point x="1441.4299999999998" y="701.0" />
+              <point x="1361.6666666666665" y="701.0" />
+              <point x="78.66666666666663" y="91.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.Role">
+              <point x="66.25" y="168.5" />
+              <point x="480.30833333333305" y="701.0" />
+              <point x="478.55833333333305" y="701.0" />
+              <point x="64.5" y="-58.5" />
+            </edge>
+            <edge source="domain.user.UserTitle" target="domain.etc.Titles">
+              <point x="0.0" y="-58.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.user.User" target="domain.user.UserExperience">
+              <point x="-53.0" y="-168.5" />
+              <point x="361.05833333333305" y="304.0" />
+              <point x="234.5" y="304.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.Recommend">
+              <point x="88.66666666666674" y="-113.5" />
+              <point x="1771.5966666666666" y="701.0" />
+              <point x="1781.3633333333328" y="701.0" />
+              <point x="30.75" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.embed.CommonDate">
+              <point x="-88.66666666666674" y="-113.5" />
+              <point x="1594.263333333333" y="701.0" />
+              <point x="1545.2199999999998" y="701.0" />
+              <point x="1545.2199999999998" y="304.0" />
+              <point x="1281.0" y="304.0" />
+              <point x="57.0" y="36.5" />
+            </edge>
+            <edge source="domain.board.BasicBoardArticle" target="domain.BulletinBoardArticle">
+              <point x="97.25" y="-25.5" />
+              <point x="1756.2249999999997" y="988.0" />
+              <point x="1771.5966666666666" y="988.0" />
+              <point x="88.66666666666674" y="113.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.CommonDate">
+              <point x="-59.0" y="-91.5" />
+              <point x="0.0" y="36.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.User">
+              <point x="-64.5" y="-58.5" />
+              <point x="349.55833333333305" y="701.0" />
+              <point x="347.80833333333305" y="701.0" />
+              <point x="-66.25" y="168.5" />
+            </edge>
+            <edge source="domain.user.Role" target="domain.user.Privilege">
+              <point x="64.5" y="58.5" />
+              <point x="478.55833333333305" y="988.0" />
+              <point x="465.30833333333305" y="988.0" />
+              <point x="51.25" y="-47.5" />
+            </edge>
+            <edge source="domain.board.DebateBoardComment" target="domain.comment.CommentId">
+              <point x="-46.75" y="-25.5" />
+              <point x="1148.553333333333" y="691.0" />
+              <point x="796.125" y="691.0" />
+              <point x="42.75" y="36.5" />
+            </edge>
+            <edge source="domain.BulletinBoardArticle" target="domain.board.UploadFiles">
+              <point x="0.0" y="-113.5" />
+              <point x="1682.9299999999998" y="701.0" />
+              <point x="1685.8633333333328" y="701.0" />
+              <point x="0.0" y="58.5" />
+            </edge>
+            <edge source="domain.board.AgendaBoardArticle" target="domain.board.AgendaBoardComment">
+              <point x="-133.66666666666663" y="-36.5" />
+              <point x="679.2666666666664" y="988.0" />
+              <point x="658.683333333333" y="988.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="domain.Comment" target="domain.embed.Recommend">
+              <point x="59.0" y="-91.5" />
+              <point x="1342.0" y="314.0" />
+              <point x="1719.8633333333328" y="314.0" />
+              <point x="-30.75" y="36.5" />
+            </edge>
+            <edge source="domain.board.DebateBoradArticle" target="domain.board.DebateBoardComment">
+              <point x="0.0" y="-36.5" />
+              <point x="1230.433333333333" y="968.0" />
+              <point x="1195.303333333333" y="968.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.4708343373979438" x="953.0" y="600.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.13.9.RELEASE/spring-data-commons-1.13.9.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="92" column="50" lean-forward="false" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/sample/SampleController.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="7" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="131">
+          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/etc/HomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserExperience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/etc/HomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/etc/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/etc/Titles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/Privilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="59" lean-forward="false" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserExperience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/etc/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/etc/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserHomeTown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/DebateBoradArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/UploadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/embed/CommonDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/embed/Tendency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/BulletinBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/comment/CommentId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/embed/Recommend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -731,273 +1476,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserHomeTown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/UserExperience.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/Privilege.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoardComment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardUpload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaAndDebateBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/Tendency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardUpload.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="-190">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Hometown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Privileges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/common/Title.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserHometown.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/createSql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="313">
+          <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
