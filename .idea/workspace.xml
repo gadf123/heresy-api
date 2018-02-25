@@ -1,63 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="게시판 CRUD 개발">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoardComment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/DebateBoradArticle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/board/UploadFiles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/CommonDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/Recommend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/embed/Tendency.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/HomeTown.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Job.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Level.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/etc/Titles.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/Privilege.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/Role.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserExperience.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserHomeTown.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserJob.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/UserTitle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/createSql.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/BulletinBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/BulletinBoardArticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/Comment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/Comment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/AgendaBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardComment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/BasicBoardArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardArticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/BasicBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/BasicBoardComment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/DebateBoardComment.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoardComment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/DebateBoradArticle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/DebateBoradArticle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/board/UploadFiles.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/board/UploadFiles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/comment/CommentId.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/comment/CommentId.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/CommonDate.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/CommonDate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/Recommend.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/Recommend.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/embed/Tendency.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/embed/Tendency.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/HomeTown.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/HomeTown.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Job.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Job.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Level.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Level.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/etc/Titles.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/etc/Titles.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/Privilege.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/Privilege.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/Role.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/Role.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserExperience.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserExperience.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserHomeTown.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserHomeTown.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserJob.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/domain/user/UserTitle.java" afterPath="$PROJECT_DIR$/src/main/java/domain33/user/UserTitle.java" />
+    <list default="true" id="c412427b-9025-458c-ab9f-6c75575225a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/Application.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/controller/BulletinBoardArticle/BulletinBoardArticleController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/domain/user/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java" afterPath="$PROJECT_DIR$/src/main/java/heresy/repository/BulletinBoardArticleRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java" afterPath="$PROJECT_DIR$/src/test/java/BulletinBoardArticleServiceTest/BulletinBoardArticleServiceTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +20,7 @@
       <file leaf-file-name="AgendaBoardComment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="105">
               <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,7 +32,7 @@
       <file leaf-file-name="Comment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
+            <state relative-caret-position="165">
               <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
@@ -97,8 +42,8 @@
       <file leaf-file-name="BulletinBoardArticle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,11 +51,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createSql.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createSql.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/createSql.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+            <state relative-caret-position="473">
+              <caret line="273" column="52" lean-forward="true" selection-start-line="273" selection-start-column="52" selection-end-line="273" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Level.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/etc/Level.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadFiles.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/UploadFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,8 +94,8 @@
       <file leaf-file-name="BasicBoardComment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            <state relative-caret-position="75">
+              <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,28 +119,6 @@
             <state relative-caret-position="75">
               <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AgendaBoardArticle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/AgendaBoardArticle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentId.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,6 +147,7 @@
       <find>rol</find>
       <find>@Table</find>
       <find>uploadImages</find>
+      <find>BasicBoardArticle</find>
     </findStrings>
     <replaceStrings>
       <replace>BulletinBoardArticle</replace>
@@ -211,7 +155,6 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -304,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -360,6 +304,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain33" type="462c0819:PsiDirectoryNode" />
               <item name="comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain33" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="heresy-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain33" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="heresy-api" type="b2602c69:ProjectViewProjectNode" />
@@ -614,7 +576,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -773,7 +734,8 @@
       <workItem from="1516801421842" duration="1944000" />
       <workItem from="1517154334577" duration="960000" />
       <workItem from="1518396294928" duration="5118000" />
-      <workItem from="1519130509709" duration="5235000" />
+      <workItem from="1519130509709" duration="5487000" />
+      <workItem from="1519561164993" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="게시판 CRUD 개발">
       <created>1518423630992</created>
@@ -789,11 +751,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518519492531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="게시판 CRUD 개발">
+      <created>1519207997345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519207997345</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16403000" />
+    <option name="totallyTimeSpent" value="17063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -801,7 +770,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -812,20 +781,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40870616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40870616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3431232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34813753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -833,7 +800,9 @@
       <window_info id="LDAP" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,26 +820,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/user/UserJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/domain">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1100,7 +1049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,14 +1092,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle/BulletinBoardArticle.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/controller/user/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -1164,7 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +1223,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1442,8 +1380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/comment/CommentId.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1460,7 +1398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/AgendaBoardComment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="105">
           <caret line="13" column="45" lean-forward="false" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1494,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/board/BasicBoardComment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="75">
+          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1504,7 +1442,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
+        <state relative-caret-position="165">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
@@ -1512,8 +1450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/heresy/domain/BulletinBoardArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1522,8 +1460,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/createSql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="296" column="22" lean-forward="true" selection-start-line="296" selection-start-column="22" selection-end-line="296" selection-end-column="22" />
+        <state relative-caret-position="473">
+          <caret line="273" column="52" lean-forward="true" selection-start-line="273" selection-start-column="52" selection-end-line="273" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/etc/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain33/board/UploadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
