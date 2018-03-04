@@ -1,22 +1,25 @@
-package heresy.domain.user;
+package heresy.domain.board;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class UserHomeTown {
+public class Tendency {
 
     @Id
-    @GeneratedValue
     private int idx;
 
-    private int userIdx;
+    private int superRight;
 
-    private int hometownIdx;
+    private int superLeft;
+
+    private int right;
+
+    private int left;
 
     private Date createDate;
 
     private Date updateDate;
+
 }

@@ -3,12 +3,10 @@ package heresy.domain.board;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name = "BASICBOARDCOMMENT")
-public class BasicBoardComment {
+public class AgendaAndDebateComment {
 
     @Id
     @GeneratedValue

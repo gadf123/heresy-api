@@ -2,7 +2,6 @@ package user;
 
 import heresy.Application;
 import heresy.repository.UserRepository;
-import heresy.service.UserService;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runner.RunWith;

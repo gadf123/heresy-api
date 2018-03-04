@@ -1,51 +1,22 @@
 package heresy.domain.user;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import java.util.Date;
 
 @Entity
-//@Table(name = "UserTitle")
 public class UserTitle {
 
-    public UserTitle(int userIdx, int userTitleIdx, char setTitle) {
-        this.userIdx = userIdx;
-        this.userTitleIdx = userTitleIdx;
-        this.setTitle = setTitle;
-    }
-
     @Id
+    @GeneratedValue
+    private int idx;
+
     private int userIdx;
 
-    private int userTitleIdx;
-//
-//    @OneToOne
-//    @JoinColumn(name = "userTitleIdx")
-//    private Titles userTitles;
+    private int titleIdx;
 
-    // 1 : set, 2 : unset
-    private char setTitle;
+    private Date createDate;
 
-
-    public int getUserIdx() {
-        return userIdx;
-    }
-
-    public void setUserIdx(int userIdx) {
-        this.userIdx = userIdx;
-    }
-
-    public int getUserTitleIdx() {
-        return userTitleIdx;
-    }
-
-    public void setUserTitleIdx(int userTitleIdx) {
-        this.userTitleIdx = userTitleIdx;
-    }
-
-    public char getSetTitle() {
-        return setTitle;
-    }
-
-    public void setSetTitle(char setTitle) {
-        this.setTitle = setTitle;
-    }
+    private Date updateDate;
 }

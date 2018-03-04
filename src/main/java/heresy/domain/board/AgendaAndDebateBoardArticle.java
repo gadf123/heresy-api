@@ -3,22 +3,24 @@ package heresy.domain.board;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name = "BASICBOARDCOMMENT")
-public class BasicBoardComment {
+public class AgendaAndDebateBoardArticle {
 
     @Id
     @GeneratedValue
     private int idx;
 
-    private int articleIdx;
+    private int subBoardIdx;
+
+    private String title;
 
     private int userIdx;
 
-    private String comment;
+    private String userNickName;
+
+    private String content;
 
     private int good;
 
@@ -36,12 +38,20 @@ public class BasicBoardComment {
         this.idx = idx;
     }
 
-    public int getArticleIdx() {
-        return articleIdx;
+    public int getSubBoardIdx() {
+        return subBoardIdx;
     }
 
-    public void setArticleIdx(int articleIdx) {
-        this.articleIdx = articleIdx;
+    public void setSubBoardIdx(int subBoardIdx) {
+        this.subBoardIdx = subBoardIdx;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public int getUserIdx() {
@@ -52,12 +62,20 @@ public class BasicBoardComment {
         this.userIdx = userIdx;
     }
 
-    public String getComment() {
-        return comment;
+    public String getUserNickName() {
+        return userNickName;
     }
 
-    public void setComment(String comment) {
-        this.comment = comment;
+    public void setUserNickName(String userNickName) {
+        this.userNickName = userNickName;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public int getGood() {

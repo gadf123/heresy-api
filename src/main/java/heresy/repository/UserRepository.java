@@ -11,5 +11,5 @@ import javax.transaction.Transactional;
  * @date 2018. 1. 20.
  **/
 
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<User, Integer> {
 }

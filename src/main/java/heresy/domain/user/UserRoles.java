@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class UserHomeTown {
+public class UserRoles {
 
     @Id
     @GeneratedValue
@@ -14,9 +14,10 @@ public class UserHomeTown {
 
     private int userIdx;
 
-    private int hometownIdx;
+    private int roleIdx;
 
     private Date createDate;
 
     private Date updateDate;
+
 }

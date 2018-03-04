@@ -1,6 +1,6 @@
 package BulletinBoardArticleServiceTest;
 
-import heresy.repository.BulletinBoardArticleRepository;
+import heresy.repository.BasicBoardArticleRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -22,7 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class BulletinBoardArticleServiceTest {
 
     @Autowired
-    private BulletinBoardArticleRepository bulletinBoardArticleRepository;
+    private BasicBoardArticleRepository basicBoardArticleRepository;
 
     @Before
     public void setUp() throws Exception {
@@ -30,6 +30,6 @@ public class BulletinBoardArticleServiceTest {
 
     @Test
     public void test1() throws Exception {
-        System.out.println(bulletinBoardArticleRepository.findAll());
+        System.out.println(basicBoardArticleRepository.findAll());
     }
 }

@@ -2,7 +2,6 @@ package heresy.controller.user;
 
 import heresy.domain.user.User;
 import heresy.repository.UserRepository;
-import heresy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,9 +18,6 @@ import java.util.logging.Logger;
 public class UserController {
 
     private static final Logger logger = Logger.getLogger(UserController.class.getName());
-
-    @Autowired
-    private UserService userService;
 
     @Autowired
     private UserRepository userRepository;
@@ -48,7 +44,7 @@ public class UserController {
     public List<User> updateUser(@RequestBody User user) {
         logger.info("■■■■■■■■■■UserController.updateUser Start■■■■■■■■■■");
         System.out.println(user);
-        Long userIdx = user.getUserIdx();
+        int userIdx = user.getIdx();
         User findOneUser = userRepository.findOne(userIdx);
         findOneUser.setUserId(user.getUserId());
         findOneUser.setUserNickName(user.getUserNickName());
@@ -63,7 +59,7 @@ public class UserController {
     public List<User> deleteUser(@RequestBody User user) {
         logger.info("■■■■■■■■■■UserController.deleteUser Start■■■■■■■■■■");
         System.out.println(user);
-        Long userIdx = user.getUserIdx();
+        int userIdx = user.getIdx();
         userRepository.delete(userIdx);
 
         List<User> userList = userRepository.findAll();
