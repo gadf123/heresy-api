@@ -1,12 +1,10 @@
 package heresy.domain.user;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
+@Table(name="`users`")
 public class User {
 
     @Id

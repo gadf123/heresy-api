@@ -32,6 +32,15 @@ public class AgendaBoardArticleController {
         return basicBoardArticleList;
     }
 
+    @RequestMapping(value = "/selectOneAgendaBoardArticle", method = RequestMethod.POST)
+    public AgendaAndDebateBoardArticle basicBoardArticle(@RequestBody AgendaAndDebateBoardArticle agendaAndDebateBoardArticle) {
+        int idx = agendaAndDebateBoardArticle.getIdx();
+        logger.info("■■■■■■■■■■AgendaBoardArticleController.selectOneAgendaBoardArticle Start■■■■■■■■■■");
+        AgendaAndDebateBoardArticle basicBoardArticle = agendaAndDebateBoardArticleRepository.findOne(idx);
+        logger.info("■■■■■■■■■■AgendaBoardArticleController.selectOneAgendaBoardArticle End■■■■■■■■■■■■");
+        return basicBoardArticle;
+    }
+
     @RequestMapping(value = "/createAgendaBoardArticle", method = RequestMethod.POST)
     public List<AgendaAndDebateBoardArticle> createAgendaBoardArticle(@RequestBody AgendaAndDebateBoardArticle agendaAndDebateBoardArticle) {
         logger.info("■■■■■■■■■■AgendaBoardArticleController.createAgendaBoardArticle Start■■■■■■■■■■");

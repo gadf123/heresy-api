@@ -1,5 +1,6 @@
 package heresy.controller.board.board;
 
+import heresy.domain.board.AgendaAndDebateBoardArticle;
 import heresy.domain.board.BasicBoardArticle;
 import heresy.repository.BasicBoardArticleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +31,15 @@ public class BasicBoardArticleController {
         List<BasicBoardArticle> basicBoardArticleList = basicBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■BasicBoardArticleController.selectBasicBoardArticle End■■■■■■■■■■■■");
         return basicBoardArticleList;
+    }
+
+    @RequestMapping(value = "/selectOneBasicBoardArticle", method = RequestMethod.POST)
+    public BasicBoardArticle basicBoardArticle(@RequestBody BasicBoardArticle basicBoardArticle) {
+        logger.info("■■■■■■■■■■BasicBoardArticleController.selectOneBasicBoardArticle Start■■■■■■■■■■");
+        int idx = basicBoardArticle.getIdx();
+        BasicBoardArticle oneBasicBoardArticle = basicBoardArticleRepository.findOne(idx);
+        logger.info("■■■■■■■■■■BasicBoardArticleController.selectOneBasicBoardArticle End■■■■■■■■■■■■");
+        return oneBasicBoardArticle;
     }
 
     @RequestMapping(value = "/createBasicBoardArticle", method = RequestMethod.POST)
