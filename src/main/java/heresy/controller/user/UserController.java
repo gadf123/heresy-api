@@ -1,10 +1,13 @@
 package heresy.controller.user;
 
 import heresy.domain.user.User;
+import heresy.domain.user.UserHomeTown;
+import heresy.repository.UserHomeTownRepository;
 import heresy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Logger;
@@ -22,12 +25,34 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private UserHomeTownRepository userHomeTownRepository;
+
     @RequestMapping(value = "/selectUsers", method = RequestMethod.GET)
-    public List<User> user() {
+//    public List<User> user() {
+    public HashMap<String, Object> user() {
+        HashMap<String, Object> map = new HashMap<>();
         logger.info("■■■■■■■■■■UserController.selectUsers Start■■■■■■■■■■");
         List<User> userList = userRepository.findAll();
+        List<UserHomeTown> userHomeTownList = userHomeTownRepository.findAll();
+        map.put("userList", userList);
+        map.put("userHomeTownList", userHomeTownList);
         logger.info("■■■■■■■■■■UserController.selectUsers End■■■■■■■■■■■■");
-        return userList;
+        return map;
+    }
+
+    @RequestMapping(value = "/selecOnetUsers", method = RequestMethod.GET)
+//    public List<User> user() {
+    public HashMap<String, Object> userOne(@RequestBody User userParam) {
+        HashMap<String, Object> map = new HashMap<>();
+        logger.info("■■■■■■■■■■UserController.selectUsers Start■■■■■■■■■■");
+        int idx = userParam.getIdx();
+        User user = userRepository.findOne(idx);
+        UserHomeTown userHomeTown = userHomeTownRepository.findOne(idx);
+        map.put("user", user);
+        map.put("userHomeTownList", userHomeTown);
+        logger.info("■■■■■■■■■■UserController.selectUsers End■■■■■■■■■■■■");
+        return map;
     }
 
     @RequestMapping(value = "/createUser", method = RequestMethod.POST)
