@@ -7,14 +7,11 @@ import javax.persistence.Id;
 @Entity
 public class Level {
 
-    @Id
-    @GeneratedValue
-    private int idx;
-
-    private int degree;
 
     private int level;
 
-    private int experience;
+    private int startExp;
+
+    private int endExp;
 
 }

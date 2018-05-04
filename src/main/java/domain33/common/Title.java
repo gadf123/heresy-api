@@ -14,6 +14,12 @@ public class Title {
 
     private String title;
 
+    private int seasonIdx;
+
+    private int rating;
+
+    private int img;
+
     private Date createDate;
 
     private Date updateDate;

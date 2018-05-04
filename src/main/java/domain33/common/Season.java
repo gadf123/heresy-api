@@ -6,16 +6,16 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class Job {
+public class Season {
 
     @Id
     @GeneratedValue
-    private int idx;
+    private int seasonIdx;
 
-    private String jobName;
+    private String seasonTitle;
 
-    private Date createDate;
+    private Date startDate;
 
-    private Date updateDate;
+    private Date endDate;
 
 }
