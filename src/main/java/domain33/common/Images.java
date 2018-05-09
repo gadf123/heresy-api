@@ -5,18 +5,15 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Codes {
+public class Images {
 
     @Id
     @GeneratedValue
-    private int codeIdx;
+    private int imageIdx;
 
-    private int codeId;
+    private int imageId;
 
-    private String codeName;
+    private String imageName;
 
-    private String comment;
-
-    private int upperId;
-
+    private String src;
 }
