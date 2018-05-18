@@ -22,7 +22,8 @@ public class WebConfigration {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOrigins("*")
-                        .allowedMethods("PUT", "DELETE", "POST", "GET")
+                        .allowedMethods("*")
+                        .allowedHeaders("*")
                         .allowCredentials(false).maxAge(3600);
             }
         };

@@ -1,12 +1,9 @@
-package heresy.controller.board.board;
+package heresy.controller.board;
 
 import heresy.domain.board.Tendency;
 import heresy.repository.TendencyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -15,6 +12,8 @@ import java.util.logging.Logger;
  * @tendency updown
  * @date 2018. 2. 12.
  **/
+
+@CrossOrigin(origins = "*")
 
 @RestController
 public class TendencyController {

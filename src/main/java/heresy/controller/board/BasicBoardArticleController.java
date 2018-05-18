@@ -1,13 +1,9 @@
-package heresy.controller.board.board;
+package heresy.controller.board;
 
-import heresy.domain.board.AgendaAndDebateBoardArticle;
 import heresy.domain.board.BasicBoardArticle;
 import heresy.repository.BasicBoardArticleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -16,7 +12,7 @@ import java.util.logging.Logger;
  * @basicBoardArticle updown
  * @date 2018. 2. 12.
  **/
-
+@CrossOrigin(origins = "*")
 @RestController
 public class BasicBoardArticleController {
 
@@ -24,6 +20,7 @@ public class BasicBoardArticleController {
 
     @Autowired
     private BasicBoardArticleRepository basicBoardArticleRepository;
+
 
     @RequestMapping(value = "/selectBasicBoardArticle", method = RequestMethod.GET)
     public List<BasicBoardArticle> basicBoardArticle() {

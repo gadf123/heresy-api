@@ -46,9 +46,16 @@
 
 
         <!-- 포스트그레스큐엘 -->
+        <!--<dependency>-->
+            <!--<groupId>org.postgresql</groupId>-->
+            <!--<artifactId>postgresql</artifactId>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>6.0.6</version>
         </dependency>
 
         <dependency>
@@ -95,6 +102,13 @@
             <!--<artifactId>mail</artifactId>-->
             <!--<version>1.4.7</version>-->
         <!--</dependency>-->
+
+        <!-- firebase -->
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>5.11.0</version>
+        </dependency>
 
     </dependencies>
 

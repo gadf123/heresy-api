@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name="`users`")
+@Table(name= "user")
 public class User {
 
     @Id
@@ -14,11 +14,6 @@ public class User {
     private String userId;
 
     private String userNickName;
-
-    private String password;
-
-    @Transient
-    private String confirmPassword;
 
     private int experience;
 
@@ -54,22 +49,6 @@ public class User {
 
     public void setUserNickName(String userNickName) {
         this.userNickName = userNickName;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getConfirmPassword() {
-        return confirmPassword;
-    }
-
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
     }
 
     public int getExperience() {

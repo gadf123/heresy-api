@@ -3,6 +3,7 @@ package heresy.controller.common;
 import heresy.domain.user.User;
 import heresy.domain.user.UserHomeTown;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +24,7 @@ import java.util.Properties;
  * @user updown
  * @date 2018. 4. 18.
  **/
-
+@CrossOrigin(origins = "*")
 @RestController
 public class MailController {
 //

@@ -2,6 +2,7 @@ package heresy.controller.user;
 
 import heresy.domain.user.User;
 import heresy.domain.user.UserHomeTown;
+import heresy.firebase.PostAuthAnno;
 import heresy.repository.UserHomeTownRepository;
 import heresy.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ import java.util.logging.Logger;
  * @date 2018. 1. 17.
  **/
 
+@CrossOrigin(origins = "*")
 @RestController
 public class UserController {
 
@@ -28,7 +30,9 @@ public class UserController {
     @Autowired
     private UserHomeTownRepository userHomeTownRepository;
 
+
     @RequestMapping(value = "/selectUsers", method = RequestMethod.GET)
+//    @PostAuthAnno
 //    public List<User> user() {
     public HashMap<String, Object> user() {
         HashMap<String, Object> map = new HashMap<>();
@@ -41,16 +45,16 @@ public class UserController {
         return map;
     }
 
-    @RequestMapping(value = "/selecOnetUsers", method = RequestMethod.GET)
+    @RequestMapping(value = "/selecOneUsers", method = RequestMethod.POST)
 //    public List<User> user() {
     public HashMap<String, Object> userOne(@RequestBody User userParam) {
         HashMap<String, Object> map = new HashMap<>();
         logger.info("■■■■■■■■■■UserController.selectUsers Start■■■■■■■■■■");
-        int idx = userParam.getIdx();
-        User user = userRepository.findOne(idx);
-        UserHomeTown userHomeTown = userHomeTownRepository.findOne(idx);
+        String userId = userParam.getUserId();
+        User user = userRepository.findByUserId(userId);
+//        UserHomeTown userHomeTown = userHomeTownRepository.findOne(userId);
         map.put("user", user);
-        map.put("userHomeTownList", userHomeTown);
+//        map.put("userHomeTownList", userHomeTown);
         logger.info("■■■■■■■■■■UserController.selectUsers End■■■■■■■■■■■■");
         return map;
     }
