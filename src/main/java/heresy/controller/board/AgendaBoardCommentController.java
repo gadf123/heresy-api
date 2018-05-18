@@ -23,32 +23,40 @@ public class AgendaBoardCommentController {
     private AgendaAndDebateCommentRepository agendaAndDebateCommentRepository;
 
     @RequestMapping(value = "/selectAgendaAndDebateComment", method = RequestMethod.GET)
-    public List<AgendaAndDebateComment> basicBoardComment() {
+    public List<AgendaAndDebateComment> selectAgendaAndDebateComment() {
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.selectAgendaAndDebateComment Start■■■■■■■■■■");
         List<AgendaAndDebateComment> agendaAndDebateCommentList = agendaAndDebateCommentRepository.findAll();
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.selectAgendaAndDebateComment End■■■■■■■■■■■■");
         return agendaAndDebateCommentList;
     }
 
+    @RequestMapping(value = "/selectOneAgendaAndDebateComment", method = RequestMethod.GET)
+    public AgendaAndDebateComment selectOneAgendaAndDebateComment(@RequestParam Integer articleIdx) {
+        logger.info("■■■■■■■■■■AgendaAndDebateCommentController.selectAgendaAndDebateComment Start■■■■■■■■■■");
+        AgendaAndDebateComment agendaAndDebateComment = agendaAndDebateCommentRepository.findOne(articleIdx);
+        logger.info("■■■■■■■■■■AgendaAndDebateCommentController.selectAgendaAndDebateComment End■■■■■■■■■■■■");
+        return agendaAndDebateComment;
+    }
+
     @RequestMapping(value = "/createAgendaAndDebateComment", method = RequestMethod.POST)
-    public List<AgendaAndDebateComment> createAgendaAndDebateComment(@RequestBody AgendaAndDebateComment basicBoardComment) {
+    public List<AgendaAndDebateComment> createAgendaAndDebateComment(@RequestBody AgendaAndDebateComment agendaAndDebateComment) {
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.createAgendaAndDebateComment Start■■■■■■■■■■");
-        System.out.println(basicBoardComment);
-        agendaAndDebateCommentRepository.save(basicBoardComment);
+        System.out.println(agendaAndDebateComment);
+        agendaAndDebateCommentRepository.save(agendaAndDebateComment);
         List<AgendaAndDebateComment> agendaAndDebateCommentList = agendaAndDebateCommentRepository.findAll();
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.createAgendaAndDebateComment End■■■■■■■■■■■■");
         return agendaAndDebateCommentList;
     }
 
     @RequestMapping(value = "/updateAgendaAndDebateComment", method = RequestMethod.POST)
-    public List<AgendaAndDebateComment> updateAgendaAndDebateComment(@RequestBody AgendaAndDebateComment basicBoardComment) {
+    public List<AgendaAndDebateComment> updateAgendaAndDebateComment(@RequestBody AgendaAndDebateComment agendaAndDebateComment) {
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.updateAgendaAndDebateComment Start■■■■■■■■■■");
-        System.out.println(basicBoardComment);
-        int idx = basicBoardComment.getIdx();
-        AgendaAndDebateComment findOneAgendaAndDebateComment = agendaAndDebateCommentRepository.findOne(idx);
-        findOneAgendaAndDebateComment.setIdx(basicBoardComment.getIdx());
-        findOneAgendaAndDebateComment.setComment(basicBoardComment.getComment());
-        agendaAndDebateCommentRepository.save(findOneAgendaAndDebateComment);
+        System.out.println(agendaAndDebateComment);
+        int idx = agendaAndDebateComment.getIdx();
+        AgendaAndDebateComment AgendaAndDebateCommentList = agendaAndDebateCommentRepository.findOne(idx);
+        AgendaAndDebateCommentList.setIdx(agendaAndDebateComment.getIdx());
+        AgendaAndDebateCommentList.setComment(agendaAndDebateComment.getComment());
+        agendaAndDebateCommentRepository.save(AgendaAndDebateCommentList);
 
         List<AgendaAndDebateComment> agendaAndDebateCommentList = agendaAndDebateCommentRepository.findAll();
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.updateAgendaAndDebateComment End■■■■■■■■■■■■");
@@ -56,10 +64,10 @@ public class AgendaBoardCommentController {
     }
 
     @RequestMapping(value = "/deleteAgendaAndDebateComment", method = RequestMethod.POST)
-    public List<AgendaAndDebateComment> deleteAgendaAndDebateComment(@RequestBody AgendaAndDebateComment basicBoardComment) {
+    public List<AgendaAndDebateComment> deleteAgendaAndDebateComment(@RequestBody AgendaAndDebateComment agendaAndDebateComment) {
         logger.info("■■■■■■■■■■AgendaAndDebateCommentController.deleteAgendaAndDebateComment Start■■■■■■■■■■");
-        System.out.println(basicBoardComment);
-        int idx = basicBoardComment.getIdx();
+        System.out.println(agendaAndDebateComment);
+        int idx = agendaAndDebateComment.getIdx();
         agendaAndDebateCommentRepository.delete(idx);
 
         List<AgendaAndDebateComment> agendaAndDebateCommentList = agendaAndDebateCommentRepository.findAll();

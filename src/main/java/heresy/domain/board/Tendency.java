@@ -14,9 +14,9 @@ public class Tendency {
 
     private int superLeft;
 
-    private int right;
+    private int rright;
 
-    private int left;
+    private int lleft;
 
     private Date createDate;
 
@@ -46,22 +46,6 @@ public class Tendency {
         this.superLeft = superLeft;
     }
 
-    public int getRight() {
-        return right;
-    }
-
-    public void setRight(int right) {
-        this.right = right;
-    }
-
-    public int getLeft() {
-        return left;
-    }
-
-    public void setLeft(int left) {
-        this.left = left;
-    }
-
     public Date getCreateDate() {
         return createDate;
     }
@@ -77,4 +61,6 @@ public class Tendency {
     public void setUpdateDate(Date updateDate) {
         this.updateDate = updateDate;
     }
+
+
 }

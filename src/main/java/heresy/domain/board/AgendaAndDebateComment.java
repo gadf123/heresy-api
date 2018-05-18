@@ -7,7 +7,6 @@ import javax.persistence.Table;
 import java.util.Date;
 
 @Entity
-@Table(name = "AGENDAANDDEBATEBOARDCOMMET")
 public class AgendaAndDebateComment {
 
     @Id
@@ -20,6 +19,8 @@ public class AgendaAndDebateComment {
 
     private String comment;
 
+    private String type;
+
     private int good;
 
     private int bad;
@@ -27,6 +28,14 @@ public class AgendaAndDebateComment {
     private Date createDate;
 
     private Date updateDate;
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 
     public int getIdx() {
         return idx;

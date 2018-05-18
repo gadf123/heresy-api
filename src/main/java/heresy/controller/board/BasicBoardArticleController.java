@@ -23,7 +23,7 @@ public class BasicBoardArticleController {
 
 
     @RequestMapping(value = "/selectBasicBoardArticle", method = RequestMethod.GET)
-    public List<BasicBoardArticle> basicBoardArticle() {
+    public List<BasicBoardArticle> selectBasicBoardArticle() {
         logger.info("■■■■■■■■■■BasicBoardArticleController.selectBasicBoardArticle Start■■■■■■■■■■");
         List<BasicBoardArticle> basicBoardArticleList = basicBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■BasicBoardArticleController.selectBasicBoardArticle End■■■■■■■■■■■■");
@@ -31,7 +31,7 @@ public class BasicBoardArticleController {
     }
 
     @RequestMapping(value = "/selectOneBasicBoardArticle", method = RequestMethod.POST)
-    public BasicBoardArticle basicBoardArticle(@RequestBody BasicBoardArticle basicBoardArticle) {
+    public BasicBoardArticle selectOneBasicBoardArticle(@RequestBody BasicBoardArticle basicBoardArticle) {
         logger.info("■■■■■■■■■■BasicBoardArticleController.selectOneBasicBoardArticle Start■■■■■■■■■■");
         int idx = basicBoardArticle.getIdx();
         BasicBoardArticle oneBasicBoardArticle = basicBoardArticleRepository.findOne(idx);

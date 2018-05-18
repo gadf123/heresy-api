@@ -3,7 +3,10 @@ package heresy.controller.board;
 import heresy.domain.board.AgendaAndDebateBoardArticle;
 import heresy.repository.AgendaAndDebateBoardArticleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.logging.Logger;
@@ -13,7 +16,6 @@ import java.util.logging.Logger;
  * @date 2018. 2. 12.
  **/
 
-@CrossOrigin(origins = "*")
 @RestController
 public class AgendaBoardArticleController {
 
@@ -23,20 +25,20 @@ public class AgendaBoardArticleController {
     private AgendaAndDebateBoardArticleRepository agendaAndDebateBoardArticleRepository;
 
     @RequestMapping(value = "/selectAgendaBoardArticle", method = RequestMethod.GET)
-    public List<AgendaAndDebateBoardArticle> basicBoardArticle() {
+    public List<AgendaAndDebateBoardArticle> selectAgendaBoardArticle() {
         logger.info("■■■■■■■■■■AgendaBoardArticleController.selectAgendaBoardArticle Start■■■■■■■■■■");
-        List<AgendaAndDebateBoardArticle> basicBoardArticleList = agendaAndDebateBoardArticleRepository.findAll();
+        List<AgendaAndDebateBoardArticle> AgendaAndDebateBoardArticleList = agendaAndDebateBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■AgendaBoardArticleController.selectAgendaBoardArticle End■■■■■■■■■■■■");
-        return basicBoardArticleList;
+        return AgendaAndDebateBoardArticleList;
     }
 
     @RequestMapping(value = "/selectOneAgendaBoardArticle", method = RequestMethod.POST)
-    public AgendaAndDebateBoardArticle basicBoardArticle(@RequestBody AgendaAndDebateBoardArticle agendaAndDebateBoardArticle) {
+    public AgendaAndDebateBoardArticle selectOneAgendaBoardArticle(@RequestBody AgendaAndDebateBoardArticle agendaAndDebateBoardArticle) {
         int idx = agendaAndDebateBoardArticle.getIdx();
         logger.info("■■■■■■■■■■AgendaBoardArticleController.selectOneAgendaBoardArticle Start■■■■■■■■■■");
-        AgendaAndDebateBoardArticle basicBoardArticle = agendaAndDebateBoardArticleRepository.findOne(idx);
+        AgendaAndDebateBoardArticle AgendaAndDebateBoardArticleList = agendaAndDebateBoardArticleRepository.findOne(idx);
         logger.info("■■■■■■■■■■AgendaBoardArticleController.selectOneAgendaBoardArticle End■■■■■■■■■■■■");
-        return basicBoardArticle;
+        return AgendaAndDebateBoardArticleList;
     }
 
     @RequestMapping(value = "/createAgendaBoardArticle", method = RequestMethod.POST)
@@ -44,9 +46,9 @@ public class AgendaBoardArticleController {
         logger.info("■■■■■■■■■■AgendaBoardArticleController.createAgendaBoardArticle Start■■■■■■■■■■");
         System.out.println(agendaAndDebateBoardArticle);
         agendaAndDebateBoardArticleRepository.save(agendaAndDebateBoardArticle);
-        List<AgendaAndDebateBoardArticle> agendaAndDebateBoardList = agendaAndDebateBoardArticleRepository.findAll();
+        List<AgendaAndDebateBoardArticle> AgendaAndDebateBoardArticleList = agendaAndDebateBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■AgendaBoardArticleController.createAgendaBoardArticle End■■■■■■■■■■■■");
-        return agendaAndDebateBoardList;
+        return AgendaAndDebateBoardArticleList;
     }
 
     @RequestMapping(value = "/updateAgendaBoardArticle", method = RequestMethod.POST)
@@ -59,9 +61,9 @@ public class AgendaBoardArticleController {
         findOneAgendaBoardArticle.setTitle(agendaAndDebateBoardArticle.getTitle());
         agendaAndDebateBoardArticleRepository.save(findOneAgendaBoardArticle);
 
-        List<AgendaAndDebateBoardArticle> agendaAndDebateBoardList = agendaAndDebateBoardArticleRepository.findAll();
+        List<AgendaAndDebateBoardArticle> AgendaAndDebateBoardArticleList = agendaAndDebateBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■AgendaBoardArticleController.updateAgendaBoardArticle End■■■■■■■■■■■■");
-        return agendaAndDebateBoardList;
+        return AgendaAndDebateBoardArticleList;
     }
 
     @RequestMapping(value = "/deleteAgendaBoardArticle", method = RequestMethod.POST)
@@ -71,8 +73,8 @@ public class AgendaBoardArticleController {
         int idx = agendaAndDebateBoardArticle.getIdx();
         agendaAndDebateBoardArticleRepository.delete(idx);
 
-        List<AgendaAndDebateBoardArticle> agendaAndDebateBoardList = agendaAndDebateBoardArticleRepository.findAll();
+        List<AgendaAndDebateBoardArticle> AgendaAndDebateBoardArticleList = agendaAndDebateBoardArticleRepository.findAll();
         logger.info("■■■■■■■■■■AgendaBoardArticleController.deleteAgendaAndDebateBoardArticle End■■■■■■■■■■■■");
-        return agendaAndDebateBoardList;
+        return AgendaAndDebateBoardArticleList;
     }
 }
