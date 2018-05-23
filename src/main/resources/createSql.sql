@@ -3,7 +3,6 @@
 --     `userIdx`       INT             NOT NULL    AUTO_INCREMENT,
 --     `userId`        VARCHAR(50)     NOT NULL,
 --     `userNickName`  VARCHAR(20)     NOT NULL,
---     `password`      VARCHAR(255)    NOT NULL,
 --     `experience`    INT             NOT NULL,
 --     `tendency`      INT             NOT NULL,
 --     `introduction`  TEXT            NOT NULL,
@@ -12,8 +11,6 @@
 --     `updateDate`    DATETIME        NOT NULL,
 --     PRIMARY KEY (userIdx)
 -- );
---
---
 --
 -- CREATE TABLE AgendaAndDebateBoardArticle
 -- (
@@ -92,7 +89,7 @@
 --
 --
 --
--- CREATE TABLE Hometown
+-- CREATE TABLE UserHometown
 -- (
 --     `hometownIdx`   INT            NOT NULL    AUTO_INCREMENT,
 --     `homeTownName`  VARCHAR(45)    NOT NULL,

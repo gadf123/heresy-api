@@ -14,7 +14,6 @@ import java.util.logging.Logger;
  **/
 
 @CrossOrigin(origins = "*")
-
 @RestController
 public class TendencyController {
 
